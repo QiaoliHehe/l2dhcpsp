@@ -1,0 +1,255 @@
+DEFINE GROUP : L2DS_GBL_CMDS
+
+COMMAND : ip dhcp snooping [vlan <integer(1-4094)>]
+ACTION  :{
+            UINT4 u4VlanId = 0;
+
+            if ($3 != NULL)
+            {
+                /*Enable snooping on vlan*/
+                MEMCPY (&u4VlanId, $4, sizeof(u4VlanId));
+
+                CLI_SET_VLANID( (tVlanId) u4VlanId);
+                cli_process_l2ds_cmd (CliHandle, L2DS_IFACE_STATUS_ENABLE, 
+                                      NULL);
+
+            }    
+            else
+            {
+                cli_process_l2ds_cmd (CliHandle, L2DS_STATUS_ENABLE,
+                                      NULL);
+            }
+         }
+SYNTAX  : ip dhcp snooping [ vlan < vlan-id (1-4094)>]
+PRVID   : 15
+HELP    : Enables Layer 2 DHCP Snooping globally in the system.
+CXT_HELP: ip Configures ip related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          vlan Vlan related configuration|
+          (1-4094) Vlan ID|
+          <CR>  Enables Layer 2 DHCP Snooping globally in the system.
+
+COMMAND : no ip dhcp snooping [vlan <integer(1-4094)>]
+ACTION  :{
+             UINT4 u4VlanId = 0;
+
+             if ($4 != NULL)
+             {
+                 /*Enable snooping on vlan*/
+                 MEMCPY (&u4VlanId, $5, sizeof(u4VlanId));
+
+                 CLI_SET_VLANID( (tVlanId) u4VlanId);
+                 cli_process_l2ds_cmd (CliHandle, L2DS_IFACE_STATUS_DISABLE, NULL);
+
+             }
+             else
+             {
+                 cli_process_l2ds_cmd (CliHandle, L2DS_STATUS_DISABLE, NULL);
+             }
+         }
+
+SYNTAX  : no ip dhcp snooping [vlan <integer(1-4094)>]
+PRVID   : 15
+HELP    : Disables Layer 2 DHCP Snooping globally in the system.
+CXT_HELP: no Disables the configuration / deletes the entry / resets to default value|
+          ip IP related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          vlan Vlan related configuration|
+          (1-4094) Vlan ID|
+          <CR> Disables Layer 2 DHCP Snooping globally in the system.
+
+
+COMMAND : ip dhcp snooping verify mac-address
+ACTION  : cli_process_l2ds_cmd (CliHandle, L2DS_MAC_STATUS_ENABLE, NULL);
+SYNTAX  : ip dhcp snooping verify mac-address
+PRVID   : 15
+HELP    : Enables DHCP mac address verification in the system globally.
+CXT_HELP: ip Configures ip related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          verify Verifies mac address globally|
+          mac-address Mac address related configuration|
+          <CR> Enables DHCP mac address verification in the system globally.
+
+
+COMMAND : no ip dhcp snooping verify mac-address
+ACTION  : cli_process_l2ds_cmd(CliHandle, L2DS_MAC_STATUS_DISABLE, NULL);
+SYNTAX  : no ip dhcp snooping verify mac-address
+PRVID   : 15
+HELP    : Disables DHCP mac address verification in the system globally.
+CXT_HELP: no Disables the configuration / deletes the entry / resets to default value|
+          ip IP related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          verify Verifies mac address globally|
+          mac-address Mac address related configuration|
+          <CR> Disables DHCP mac address verification in the system globally.
+
+
+END GROUP
+
+DEFINE GROUP : L2DS_VLAN_CMDS
+
+COMMAND : ip dhcp snooping
+ACTION  : cli_process_l2ds_cmd (CliHandle, L2DS_IFACE_STATUS_ENABLE, NULL);
+SYNTAX  : ip dhcp snooping
+PRVID   : 15
+HELP    : Enables Layer 2 DHCP Snooping in the VLAN.
+CXT_HELP: ip Configures ip related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          <CR>  Enables Layer 2 DHCP Snooping in the VLAN.
+
+
+COMMAND : no ip dhcp snooping
+ACTION  : cli_process_l2ds_cmd (CliHandle, L2DS_IFACE_STATUS_DISABLE, NULL);
+SYNTAX  : no ip dhcp snooping
+PRVID   : 15
+HELP    : Disables Layer 2 DHCP Snooping in the VLAN.
+CXT_HELP: no Disables the configuration / deletes the entry / resets to default value|
+          ip IP related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          <CR> Disables Layer 2 DHCP Snooping in the VLAN.
+
+
+END GROUP
+
+DEFINE GROUP : L2DS_IFACE_CMDS 
+
+COMMAND : ip dhcp snooping trust
+ACTION  : cli_process_l2ds_cmd (CliHandle, L2DS_PORT_STATE_TRUSTED,
+                                NULL);
+SYNTAX  : ip dhcp snooping trust
+PRVID   : 15
+HELP    : Configures the interface as a trusted port.
+CXT_HELP: ip Configures ip related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          trust Trust port related configuration|
+          <CR> Configures the interface as a trusted port.
+
+COMMAND : no ip dhcp snooping trust
+ACTION  : cli_process_l2ds_cmd (CliHandle, L2DS_PORT_STATE_UNTRUSTED,
+                                NULL);
+SYNTAX  : no ip dhcp snooping trust
+PRVID   : 15
+HELP    : Configures the interface as an untrusted port.
+CXT_HELP: no Disables the configuration / deletes the entry / resets to default value|
+          ip Configures ip related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          trust Trust port related configuration|
+          <CR> Configures the interface as an untrusted port.
+
+
+END GROUP
+
+DEFINE GROUP: L2DS_SHOW_CMDS
+
+COMMAND : show ip dhcp snooping globals [switch <string (32)>]
+ACTION  : cli_process_l2ds_cmd (CliHandle, L2DS_GLOBAL_SHOW, NULL,$6);
+SYNTAX  : show ip dhcp snooping globals [switch <Context Name>]
+PRVID   : 15
+HELP    : shows the global configurations of DHCP Snooping.
+CXT_HELP: show Displays the configuration / statistics / general information|
+          ip IP related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          globals DHCP snooping global configuration|
+          switch Protocol specific information for switch |
+          DYNswitchname|
+          <CR> shows the global configurations of DHCP Snooping.
+
+COMMAND : show ip dhcp snooping [vlan <short (1-4094)>][switch <string (32)>]
+ACTION  : {
+            if (($4) != NULL)
+            {
+                cli_process_l2ds_cmd (CliHandle, L2DS_VLAN_SHOW, NULL, $7,$5);
+            }
+            else
+            {
+                cli_process_l2ds_cmd (CliHandle, L2DS_VLAN_SHOW, NULL, $7,0);
+            }
+          }
+SYNTAX  : show ip dhcp snooping [vlan <vlan-id (1-4094)>] [switch <context name>]
+PRVID   : 15
+HELP    : shows the configuration and statistics of the given VLAN.
+CXT_HELP: show Displays the configuration / statistics / general information|
+          ip IP related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          vlan Vlan related configuration|
+          (1-4094) Vlan ID|
+          switch Protocol specific information for switch |
+          DYNswitchname|
+          <CR> Shows the configuration and statistics of the given VLAN.
+
+
+
+END GROUP
+
+DEFINE GROUP: L2DS_EXEC_CMDS
+
+COMMAND : debug ip dhcp snooping {[entry][exit][debug][fail] | all}
+ACTION  : {
+            INT4 i4Trace = 0;
+
+            if ($4 != NULL)
+            {
+                i4Trace = i4Trace | L2DS_FN_ENTRY;
+            }
+            if ($5 != NULL)
+            {
+                i4Trace = i4Trace | L2DS_FN_EXIT;
+            }
+            if ($6 != NULL)
+            {
+                i4Trace = i4Trace | L2DS_DBG_TRC;
+            }
+            if ($7 != NULL)
+            {
+                i4Trace = i4Trace | L2DS_FAIL_TRC;
+            }
+            if ($8 != NULL)
+            {
+               i4Trace = L2DS_ALL_TRC;
+            }
+            if (i4Trace == 0)
+            {
+                CliPrintf(CliHandle, "%% Incomplete command. \r\n");
+                return CLI_FAILURE;
+            }
+            cli_process_l2ds_cmd (CliHandle,L2DS_TRACE_ENABLE, NULL, i4Trace);
+          }
+SYNTAX  : debug ip dhcp snooping {[entry][exit][debug][fail] | all}
+PRVID   : 15
+HELP    : Specifies the debug levels for DHCP Snooping module.
+CXT_HELP: debug Configures trace for the protocol|
+          ip IP related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          entry Function entry traces|
+          exit Function exit traces|
+          debug Debug traces|
+          fail All failure traces|
+          all All traces|
+          <CR> Specifies the debug levels for DHCP Snooping module.
+
+
+COMMAND : no debug ip dhcp snooping
+ACTION  : cli_process_l2ds_cmd (CliHandle, L2DS_TRACE_DISABLE, NULL);
+SYNTAX  : no debug ip dhcp snooping
+PRVID   : 15
+HELP    : Disabling L2 DHCP Snooping module debugging.
+CXT_HELP: no Disables the configuration / deletes the entry / resets to default value|
+          debug Protocol trace related configuration|
+          ip IP related configuration|
+          dhcp Layer 2 dhcp related configuration|
+          snooping Snooping related configuration|
+          <CR> Disabling L2 DHCP Snooping module debugging.
+
+END GROUP
+

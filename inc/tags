@@ -1,0 +1,858 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BCastMacAddr	l2dsglob.h	/^tMacAddr                BCastMacAddr = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff};$/;"	v
+CFA_PVC	l2dsdefn.h	270;"	d
+CFA_XDSL2	l2dsdefn.h	271;"	d
+CfaGetPvcIfIndexFromDslIndexVpiVci	l2dsprot.h	/^INT4 CfaGetPvcIfIndexFromDslIndexVpiVci (UINT4 , INT4, INT4 ,UINT4 *);$/;"	p	signature:(UINT4 , INT4, INT4 ,UINT4 *)
+CfaGetVciVpiDslIfIndex	l2dsprot.h	/^INT4 CfaGetVciVpiDslIfIndex (UINT4 , UINT4 * ,INT4 * ,INT4 *);$/;"	p	signature:(UINT4 , UINT4 * ,INT4 * ,INT4 *)
+Chaddr	l2dstdfs.h	/^	tMacAddr  	Chaddr;					\/* Client hardware address *\/$/;"	m	struct:_L2DS6Pkt	access:public
+Chaddr	l2dstdfs.h	/^    tMacAddr  Chaddr;                      \/* Client hardware address *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+ClomHexStr2Bitmap	l2dsprot.h	/^extern INT4 ClomHexStr2Bitmap(CHR1 *, UINT4, UINT1 *, UINT4 , CHR1);$/;"	p	signature:(CHR1 *, UINT4, UINT1 *, UINT4 , CHR1)
+CmDSPOption82DefCircuitIdGet	l2dsprot.h	/^INT4 CmDSPOption82DefCircuitIdGet (UINT4, tVlanId, UINT1 *, UINT1 *);$/;"	p	signature:(UINT4, tVlanId, UINT1 *, UINT1 *)
+CmDSPOption82DefRemoteIdGet	l2dsprot.h	/^INT4 CmDSPOption82DefRemoteIdGet (UINT1 *, UINT1 *);$/;"	p	signature:(UINT1 *, UINT1 *)
+CmDhcpSnpBackupDBInterval	fsdhcsdb.h	/^UINT4 CmDhcpSnpBackupDBInterval [ ] ={1,3,6,1,4,1,29601,2,3,1,103};$/;"	v
+CmDhcpSnpBackupDBIntervalDep	fsdhcswr.h	/^INT4 CmDhcpSnpBackupDBIntervalDep(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *);$/;"	p	signature:(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *)
+CmDhcpSnpBackupDBIntervalGet	fsdhcswr.h	/^INT4 CmDhcpSnpBackupDBIntervalGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+CmDhcpSnpBackupDBIntervalSet	fsdhcswr.h	/^INT4 CmDhcpSnpBackupDBIntervalSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+CmDhcpSnpBackupDBIntervalTest	fsdhcswr.h	/^INT4 CmDhcpSnpBackupDBIntervalTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+CmDhcpSnpBackupDBStatus	fsdhcsdb.h	/^UINT4 CmDhcpSnpBackupDBStatus [ ] ={1,3,6,1,4,1,29601,2,3,1,102};$/;"	v
+CmDhcpSnpBackupDBStatusDep	fsdhcswr.h	/^INT4 CmDhcpSnpBackupDBStatusDep(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *);$/;"	p	signature:(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *)
+CmDhcpSnpBackupDBStatusGet	fsdhcswr.h	/^INT4 CmDhcpSnpBackupDBStatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+CmDhcpSnpBackupDBStatusSet	fsdhcswr.h	/^INT4 CmDhcpSnpBackupDBStatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+CmDhcpSnpBackupDBStatusTest	fsdhcswr.h	/^INT4 CmDhcpSnpBackupDBStatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+CmDhcpSnpFwdOption82Status	fsdhcsdb.h	/^UINT4 CmDhcpSnpFwdOption82Status [ ] ={1,3,6,1,4,1,29601,2,3,1,101};$/;"	v
+CmDhcpSnpFwdOption82StatusDep	fsdhcswr.h	/^INT4 CmDhcpSnpFwdOption82StatusDep(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *);$/;"	p	signature:(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *)
+CmDhcpSnpFwdOption82StatusGet	fsdhcswr.h	/^INT4 CmDhcpSnpFwdOption82StatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+CmDhcpSnpFwdOption82StatusSet	fsdhcswr.h	/^INT4 CmDhcpSnpFwdOption82StatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+CmDhcpSnpFwdOption82StatusTest	fsdhcswr.h	/^INT4 CmDhcpSnpFwdOption82StatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+CmDhcpSnpInsertOption82Status	fsdhcsdb.h	/^UINT4 CmDhcpSnpInsertOption82Status [ ] ={1,3,6,1,4,1,29601,2,3,1,100};$/;"	v
+CmDhcpSnpInsertOption82StatusDep	fsdhcswr.h	/^INT4 CmDhcpSnpInsertOption82StatusDep(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *);$/;"	p	signature:(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *)
+CmDhcpSnpInsertOption82StatusGet	fsdhcswr.h	/^INT4 CmDhcpSnpInsertOption82StatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+CmDhcpSnpInsertOption82StatusSet	fsdhcswr.h	/^INT4 CmDhcpSnpInsertOption82StatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+CmDhcpSnpInsertOption82StatusTest	fsdhcswr.h	/^INT4 CmDhcpSnpInsertOption82StatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+CmDhcpSnpMakeObjIdFromDotNew	cmdstrap.h	/^CmDhcpSnpMakeObjIdFromDotNew (UINT1 *textStr);$/;"	p	signature:(UINT1 *textStr)
+CmDhpSNPSnmpSendUntrustPortUtlTrap	cmdstrap.h	/^CmDhpSNPSnmpSendUntrustPortUtlTrap (INT4 i4PortNUM,$/;"	p	signature:(INT4 i4PortNUM, INT1 *pi1TrapsOid, UINT1 u1TrapOidLen)
+CmDspIpv6RuleActionModify	cmdsrule.h	/^INT4 CmDspIpv6RuleActionModify(INT4 i4Action);$/;"	p	signature:(INT4 i4Action)
+CmL2DhcpSNPSnmpSendTrap	cmdstrap.h	/^VOID CmL2DhcpSNPSnmpSendTrap PROTO ((UINT1 u1TrapId, INT1 *pi1TrapOid, UINT1 u1OidLen,$/;"	p	signature:(UINT1 u1TrapId, INT1 *pi1TrapOid, UINT1 u1OidLen, VOID *pTrapInfo)
+CmL2dsFdbAdd	l2dsprot.h	/^PUBLIC INT4 CmL2dsFdbAdd PROTO((tVlanId, tMacAddr, UINT4));$/;"	p	signature:(tVlanId, tMacAddr, UINT4)
+CmL2dsFdbDel	l2dsprot.h	/^PUBLIC INT4 CmL2dsFdbDel PROTO((tVlanId, tMacAddr, UINT4));$/;"	p	signature:(tVlanId, tMacAddr, UINT4)
+CmL2dsFdbFind	l2dsprot.h	/^PUBLIC INT4 CmL2dsFdbFind PROTO((tVlanId, tMacAddr, UINT4*));$/;"	p	signature:(tVlanId, tMacAddr, UINT4*)
+CmL2dsFdbPrint	l2dsprot.h	/^PUBLIC INT4 CmL2dsFdbPrint PROTO((VOID));$/;"	p	signature:(VOID)
+CmL2dsFwdPkt	l2dsprot.h	/^INT4 CmL2dsFwdPkt(UINT4, UINT1 *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT4, UINT1 *, tL2DhcpSnpPktInfo *)
+CmL2dsGetBcPortlist	l2dsprot.h	/^INT4 CmL2dsGetBcPortlist(UINT4, UINT1 *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT4, UINT1 *, tL2DhcpSnpPktInfo *)
+CmL2dsGetDhcp4Info	l2dsprot.h	/^INT4 CmL2dsGetDhcp4Info (UINT1 *, UINT4, tL2DhcpSnpPacket *);$/;"	p	signature:(UINT1 *, UINT4, tL2DhcpSnpPacket *)
+CmL2dsGetDhcp6Info	l2dsprot.h	/^INT4 CmL2dsGetDhcp6Info (UINT1 *, UINT4, tL2DhcpSnpPktInfo6Pkt *);$/;"	p	signature:(UINT1 *, UINT4, tL2DhcpSnpPktInfo6Pkt *)
+CmL2dsGetGw	l2dsprot.h	/^INT4 CmL2dsGetGw(tL2DhcpSnpPktInfo *);$/;"	p	signature:(tL2DhcpSnpPktInfo *)
+CmL2dsGetIpv4Info	l2dsprot.h	/^INT4 CmL2dsGetIpv4Info(UINT1 *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT1 *, tL2DhcpSnpPktInfo *)
+CmL2dsGetIpv6Info	l2dsprot.h	/^INT4 CmL2dsGetIpv6Info(UINT1 *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT1 *, tL2DhcpSnpPktInfo *)
+CmL2dsGetLTime	l2dsprot.h	/^INT4 CmL2dsGetLTime(tL2DhcpSnpPktInfo *);$/;"	p	signature:(tL2DhcpSnpPktInfo *)
+CmL2dsGetUcPortlist	l2dsprot.h	/^INT4 CmL2dsGetUcPortlist(UINT4, UINT1 *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT4, UINT1 *, tL2DhcpSnpPktInfo *)
+CmL2dsIntfDelAll	l2dsprot.h	/^PUBLIC INT4 CmL2dsIntfDelAll PROTO((VOID));$/;"	p	signature:(VOID)
+CmL2dsMibRestoreOver	l2dsprot.h	/^INT4 CmL2dsMibRestoreOver(VOID);$/;"	p	signature:(VOID)
+CmL2dsPktMod	l2dsprot.h	/^INT4 CmL2dsPktMod(UINT1 *,tL2DhcpSnpPktInfo * , UINT1);$/;"	p	signature:(UINT1 *,tL2DhcpSnpPktInfo * , UINT1)
+CmL2dsPktReleaseForMirrored	l2dsprot.h	/^INT4 CmL2dsPktReleaseForMirrored(tCRU_BUF_CHAIN_HEADER * pBuf, tL2DhcpSnpPktInfo * pL2DS);$/;"	p	signature:(tCRU_BUF_CHAIN_HEADER * pBuf, tL2DhcpSnpPktInfo * pL2DS)
+CmL2dsReadDB	l2dsprot.h	/^PUBLIC INT4 CmL2dsReadDB(VOID);$/;"	p	signature:(VOID)
+CmL2dsReadEntry	l2dsprot.h	/^PUBLIC INT4 CmL2dsReadEntry(INT1 *);$/;"	p	signature:(INT1 *)
+CmL2dsUpdIPDB	l2dsprot.h	/^INT4 CmL2dsUpdIPDB(UINT4, tL2DhcpSnpPktInfo *, UINT1 *);$/;"	p	signature:(UINT4, tL2DhcpSnpPktInfo *, UINT1 *)
+DCS_ACCESS_NODE_LEN	l2dsdefn.h	273;"	d
+DCS_BACKUP_DB_FILE	l2dsdefn.h	291;"	d
+DCS_BACKUP_DB_ITVL_DFT	l2dsdefn.h	289;"	d
+DCS_BACKUP_DB_ITVL_MAX	l2dsdefn.h	290;"	d
+DCS_BACKUP_DB_ITVL_MIN	l2dsdefn.h	288;"	d
+DCS_BACKUP_DB_RWBUF_LEN	l2dsdefn.h	292;"	d
+DCS_CIRCUIT_ID_HEADER_LEN	l2dsdefn.h	276;"	d
+DCS_CIRCUIT_ID_LEN	l2dsdefn.h	280;"	d
+DCS_CIRCUIT_SUBOPT	l2dsdefn.h	275;"	d
+DCS_DISABLE	l2dsdefn.h	285;"	d
+DCS_DSL_OPTION_LEN	l2dsdefn.h	279;"	d
+DCS_ENABLE	l2dsdefn.h	284;"	d
+DCS_FAILURE	l2dsdefn.h	283;"	d
+DCS_REMOTE_ID_HEADER_LEN	l2dsdefn.h	277;"	d
+DCS_REMOTE_ID_LEN	l2dsdefn.h	281;"	d
+DCS_REMOTE_SUBOPT	l2dsdefn.h	278;"	d
+DCS_SUCCESS	l2dsdefn.h	282;"	d
+DHCP_CLIENT_PKT	l2dsdefn.h	60;"	d
+DHCP_SERVER_PKT	l2dsdefn.h	59;"	d
+DHCP_SNP_INVALID_TRAP	cmdstrap.h	/^    DHCP_SNP_INVALID_TRAP$/;"	e	enum:__anon3
+DHCP_SNP_MAX_OBJ_LEN	cmdstrap.h	16;"	d
+DHCP_SNP_TRAPS_OID_LEN	cmdstrap.h	15;"	d
+DHCP_SNP_UTIL_TRAP	cmdstrap.h	/^    DHCP_SNP_UTIL_TRAP=1,$/;"	e	enum:__anon3
+DHCP_SNP_UTIL_TRAPS_OID	cmdstrap.h	13;"	d
+DcsGetAccessLoopStatus	l2dsprot.h	/^INT4 DcsGetAccessLoopStatus (INT4 , UINT1 *);$/;"	p	signature:(INT4 , UINT1 *)
+DcsGetAccessNodeIdentifier	l2dsprot.h	/^UINT1 * DcsGetAccessNodeIdentifier PROTO ((UINT1 *pu1AccessNodeName));$/;"	p	signature:(UINT1 *pu1AccessNodeName)
+DcsGetFreeStringACI	l2dsprot.h	/^INT4 DcsGetFreeStringACI (INT4 , UINT1 *,INT4 *);$/;"	p	signature:(INT4 , UINT1 *,INT4 *)
+DcsGetRemoteAgentIdStatus	l2dsprot.h	/^INT4 DcsGetRemoteAgentIdStatus (INT4 , UINT1 *);$/;"	p	signature:(INT4 , UINT1 *)
+DcsUtilGetCircuitIdString	l2dsprot.h	/^INT4 DcsUtilGetCircuitIdString (UINT4 , tVlanId ,UINT1 *, UINT1 *);$/;"	p	signature:(UINT4 , tVlanId ,UINT1 *, UINT1 *)
+DcsUtilGetDslLineCharacteristics	l2dsprot.h	/^INT4 DcsUtilGetDslLineCharacteristics (UINT4 , UINT1 *,UINT1 *, tVlanTag );$/;"	p	signature:(UINT4 , UINT1 *,UINT1 *, tVlanTag )
+DcsUtilGetFreeStringACI	l2dsprot.h	/^INT4 DcsUtilGetFreeStringACI (INT4 , UINT1*, UINT1 *);$/;"	p	signature:(INT4 , UINT1*, UINT1 *)
+DcsUtilGetRemoteIdString	l2dsprot.h	/^INT4 DcsUtilGetRemoteIdString ( UINT1 *, UINT1 *);$/;"	p	signature:( UINT1 *, UINT1 *)
+DynamicPoolId	l2dstdfs.h	/^    tMemPoolId  DynamicPoolId;            \/* Memory Pool ID for Dynamic $/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+EthHdr	l2dstdfs.h	/^	tEnetV2Header		EthHdr;				\/* We only use mac in it *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+FsDhcpSnpInterfaceStatus	fsdhcsdb.h	/^UINT4 FsDhcpSnpInterfaceStatus [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,15};$/;"	v
+FsDhcpSnpInterfaceStatusGet	fsdhcswr.h	/^INT4 FsDhcpSnpInterfaceStatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpInterfaceStatusSet	fsdhcswr.h	/^INT4 FsDhcpSnpInterfaceStatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpInterfaceStatusTest	fsdhcswr.h	/^INT4 FsDhcpSnpInterfaceStatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+FsDhcpSnpInterfaceTableDep	fsdhcswr.h	/^INT4 FsDhcpSnpInterfaceTableDep(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*);$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+FsDhcpSnpInterfaceTableINDEX	fsdhcsdb.h	/^UINT1 FsDhcpSnpInterfaceTableINDEX [] = {SNMP_DATA_TYPE_INTEGER32};$/;"	v
+FsDhcpSnpMacDiscards	fsdhcsdb.h	/^UINT4 FsDhcpSnpMacDiscards [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,12};$/;"	v
+FsDhcpSnpMacDiscardsGet	fsdhcswr.h	/^INT4 FsDhcpSnpMacDiscardsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpMacVerifyStatus	fsdhcsdb.h	/^UINT4 FsDhcpSnpMacVerifyStatus [ ] ={1,3,6,1,4,1,29601,2,3,1,2};$/;"	v
+FsDhcpSnpMacVerifyStatusDep	fsdhcswr.h	/^INT4 FsDhcpSnpMacVerifyStatusDep(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *);$/;"	p	signature:(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *)
+FsDhcpSnpMacVerifyStatusGet	fsdhcswr.h	/^INT4 FsDhcpSnpMacVerifyStatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpMacVerifyStatusSet	fsdhcswr.h	/^INT4 FsDhcpSnpMacVerifyStatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpMacVerifyStatusTest	fsdhcswr.h	/^INT4 FsDhcpSnpMacVerifyStatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+FsDhcpSnpNoOfDiscards	fsdhcsdb.h	/^UINT4 FsDhcpSnpNoOfDiscards [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,11};$/;"	v
+FsDhcpSnpNoOfDiscardsGet	fsdhcswr.h	/^INT4 FsDhcpSnpNoOfDiscardsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpOptionDiscards	fsdhcsdb.h	/^UINT4 FsDhcpSnpOptionDiscards [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,14};$/;"	v
+FsDhcpSnpOptionDiscardsGet	fsdhcswr.h	/^INT4 FsDhcpSnpOptionDiscardsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpRxDeclines	fsdhcsdb.h	/^UINT4 FsDhcpSnpRxDeclines [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,6};$/;"	v
+FsDhcpSnpRxDeclinesGet	fsdhcswr.h	/^INT4 FsDhcpSnpRxDeclinesGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpRxDiscovers	fsdhcsdb.h	/^UINT4 FsDhcpSnpRxDiscovers [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,3};$/;"	v
+FsDhcpSnpRxDiscoversGet	fsdhcswr.h	/^INT4 FsDhcpSnpRxDiscoversGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpRxInforms	fsdhcsdb.h	/^UINT4 FsDhcpSnpRxInforms [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,7};$/;"	v
+FsDhcpSnpRxInformsGet	fsdhcswr.h	/^INT4 FsDhcpSnpRxInformsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpRxReleases	fsdhcsdb.h	/^UINT4 FsDhcpSnpRxReleases [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,5};$/;"	v
+FsDhcpSnpRxReleasesGet	fsdhcswr.h	/^INT4 FsDhcpSnpRxReleasesGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpRxRequests	fsdhcsdb.h	/^UINT4 FsDhcpSnpRxRequests [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,4};$/;"	v
+FsDhcpSnpRxRequestsGet	fsdhcswr.h	/^INT4 FsDhcpSnpRxRequestsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpServerDiscards	fsdhcsdb.h	/^UINT4 FsDhcpSnpServerDiscards [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,13};$/;"	v
+FsDhcpSnpServerDiscardsGet	fsdhcswr.h	/^INT4 FsDhcpSnpServerDiscardsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpSnoopingAdminStatus	fsdhcsdb.h	/^UINT4 FsDhcpSnpSnoopingAdminStatus [ ] ={1,3,6,1,4,1,29601,2,3,1,1};$/;"	v
+FsDhcpSnpSnoopingAdminStatusDep	fsdhcswr.h	/^INT4 FsDhcpSnpSnoopingAdminStatusDep(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *);$/;"	p	signature:(UINT4 *, tSnmpIndexList *, tSNMP_VAR_BIND *)
+FsDhcpSnpSnoopingAdminStatusGet	fsdhcswr.h	/^INT4 FsDhcpSnpSnoopingAdminStatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpSnoopingAdminStatusSet	fsdhcswr.h	/^INT4 FsDhcpSnpSnoopingAdminStatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpSnoopingAdminStatusTest	fsdhcswr.h	/^INT4 FsDhcpSnpSnoopingAdminStatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+FsDhcpSnpTxAcks	fsdhcsdb.h	/^UINT4 FsDhcpSnpTxAcks [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,9};$/;"	v
+FsDhcpSnpTxAcksGet	fsdhcswr.h	/^INT4 FsDhcpSnpTxAcksGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpTxNaks	fsdhcsdb.h	/^UINT4 FsDhcpSnpTxNaks [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,10};$/;"	v
+FsDhcpSnpTxNaksGet	fsdhcswr.h	/^INT4 FsDhcpSnpTxNaksGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpTxOffers	fsdhcsdb.h	/^UINT4 FsDhcpSnpTxOffers [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,8};$/;"	v
+FsDhcpSnpTxOffersGet	fsdhcswr.h	/^INT4 FsDhcpSnpTxOffersGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpVlanId	fsdhcsdb.h	/^UINT4 FsDhcpSnpVlanId [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,1};$/;"	v
+FsDhcpSnpVlanIdGet	fsdhcswr.h	/^INT4 FsDhcpSnpVlanIdGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpVlanSnpStatus	fsdhcsdb.h	/^UINT4 FsDhcpSnpVlanSnpStatus [ ] ={1,3,6,1,4,1,29601,2,3,2,1,1,2};$/;"	v
+FsDhcpSnpVlanSnpStatusGet	fsdhcswr.h	/^INT4 FsDhcpSnpVlanSnpStatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpVlanSnpStatusSet	fsdhcswr.h	/^INT4 FsDhcpSnpVlanSnpStatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsDhcpSnpVlanSnpStatusTest	fsdhcswr.h	/^INT4 FsDhcpSnpVlanSnpStatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+FsL2DSSizingParams	l2dssz.h	/^tFsModSizingParams FsL2DSSizingParams [] = {$/;"	v
+FsMIDhcpSnpContextId	fsmidhdb.h	/^UINT4 FsMIDhcpSnpContextId [ ] ={1,3,6,1,4,1,29601,2,49,1,1,1,1};$/;"	v
+FsMIDhcpSnpGlobalConfigTableDep	fsmidhwr.h	/^INT4 FsMIDhcpSnpGlobalConfigTableDep(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*);$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+FsMIDhcpSnpGlobalConfigTableINDEX	fsmidhdb.h	/^UINT1 FsMIDhcpSnpGlobalConfigTableINDEX [] = {SNMP_DATA_TYPE_INTEGER32};$/;"	v
+FsMIDhcpSnpInterfaceStatus	fsmidhdb.h	/^UINT4 FsMIDhcpSnpInterfaceStatus [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,16};$/;"	v
+FsMIDhcpSnpInterfaceStatusGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpInterfaceStatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpInterfaceStatusSet	fsmidhwr.h	/^INT4 FsMIDhcpSnpInterfaceStatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpInterfaceStatusTest	fsmidhwr.h	/^INT4 FsMIDhcpSnpInterfaceStatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpInterfaceTableDep	fsmidhwr.h	/^INT4 FsMIDhcpSnpInterfaceTableDep(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*);$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+FsMIDhcpSnpInterfaceTableINDEX	fsmidhdb.h	/^UINT1 FsMIDhcpSnpInterfaceTableINDEX [] = {SNMP_DATA_TYPE_INTEGER32 ,SNMP_DATA_TYPE_INTEGER32};$/;"	v
+FsMIDhcpSnpMacDiscards	fsmidhdb.h	/^UINT4 FsMIDhcpSnpMacDiscards [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,13};$/;"	v
+FsMIDhcpSnpMacDiscardsGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpMacDiscardsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpMacVerifyStatus	fsmidhdb.h	/^UINT4 FsMIDhcpSnpMacVerifyStatus [ ] ={1,3,6,1,4,1,29601,2,49,1,1,1,3};$/;"	v
+FsMIDhcpSnpMacVerifyStatusGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpMacVerifyStatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpMacVerifyStatusSet	fsmidhwr.h	/^INT4 FsMIDhcpSnpMacVerifyStatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpMacVerifyStatusTest	fsmidhwr.h	/^INT4 FsMIDhcpSnpMacVerifyStatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpNoOfDiscards	fsmidhdb.h	/^UINT4 FsMIDhcpSnpNoOfDiscards [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,12};$/;"	v
+FsMIDhcpSnpNoOfDiscardsGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpNoOfDiscardsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpOptionDiscards	fsmidhdb.h	/^UINT4 FsMIDhcpSnpOptionDiscards [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,15};$/;"	v
+FsMIDhcpSnpOptionDiscardsGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpOptionDiscardsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpRxDeclines	fsmidhdb.h	/^UINT4 FsMIDhcpSnpRxDeclines [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,7};$/;"	v
+FsMIDhcpSnpRxDeclinesGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpRxDeclinesGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpRxDiscovers	fsmidhdb.h	/^UINT4 FsMIDhcpSnpRxDiscovers [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,4};$/;"	v
+FsMIDhcpSnpRxDiscoversGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpRxDiscoversGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpRxInforms	fsmidhdb.h	/^UINT4 FsMIDhcpSnpRxInforms [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,8};$/;"	v
+FsMIDhcpSnpRxInformsGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpRxInformsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpRxReleases	fsmidhdb.h	/^UINT4 FsMIDhcpSnpRxReleases [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,6};$/;"	v
+FsMIDhcpSnpRxReleasesGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpRxReleasesGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpRxRequests	fsmidhdb.h	/^UINT4 FsMIDhcpSnpRxRequests [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,5};$/;"	v
+FsMIDhcpSnpRxRequestsGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpRxRequestsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpServerDiscards	fsmidhdb.h	/^UINT4 FsMIDhcpSnpServerDiscards [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,14};$/;"	v
+FsMIDhcpSnpServerDiscardsGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpServerDiscardsGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpSnoopingAdminStatus	fsmidhdb.h	/^UINT4 FsMIDhcpSnpSnoopingAdminStatus [ ] ={1,3,6,1,4,1,29601,2,49,1,1,1,2};$/;"	v
+FsMIDhcpSnpSnoopingAdminStatusGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpSnoopingAdminStatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpSnoopingAdminStatusSet	fsmidhwr.h	/^INT4 FsMIDhcpSnpSnoopingAdminStatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpSnoopingAdminStatusTest	fsmidhwr.h	/^INT4 FsMIDhcpSnpSnoopingAdminStatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpTxAcks	fsmidhdb.h	/^UINT4 FsMIDhcpSnpTxAcks [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,10};$/;"	v
+FsMIDhcpSnpTxAcksGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpTxAcksGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpTxNaks	fsmidhdb.h	/^UINT4 FsMIDhcpSnpTxNaks [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,11};$/;"	v
+FsMIDhcpSnpTxNaksGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpTxNaksGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpTxOffers	fsmidhdb.h	/^UINT4 FsMIDhcpSnpTxOffers [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,9};$/;"	v
+FsMIDhcpSnpTxOffersGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpTxOffersGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpVlanId	fsmidhdb.h	/^UINT4 FsMIDhcpSnpVlanId [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,2};$/;"	v
+FsMIDhcpSnpVlanSnpStatus	fsmidhdb.h	/^UINT4 FsMIDhcpSnpVlanSnpStatus [ ] ={1,3,6,1,4,1,29601,2,49,2,1,1,3};$/;"	v
+FsMIDhcpSnpVlanSnpStatusGet	fsmidhwr.h	/^INT4 FsMIDhcpSnpVlanSnpStatusGet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpVlanSnpStatusSet	fsmidhwr.h	/^INT4 FsMIDhcpSnpVlanSnpStatusSet(tSnmpIndex *, tRetVal *);$/;"	p	signature:(tSnmpIndex *, tRetVal *)
+FsMIDhcpSnpVlanSnpStatusTest	fsmidhwr.h	/^INT4 FsMIDhcpSnpVlanSnpStatusTest(UINT4 *, tSnmpIndex *, tRetVal *);$/;"	p	signature:(UINT4 *, tSnmpIndex *, tRetVal *)
+GetNextIndexFsDhcpSnpInterfaceTable	fsdhcswr.h	/^INT4 GetNextIndexFsDhcpSnpInterfaceTable(tSnmpIndex *, tSnmpIndex *);$/;"	p	signature:(tSnmpIndex *, tSnmpIndex *)
+GetNextIndexFsMIDhcpSnpGlobalConfigTable	fsmidhwr.h	/^INT4 GetNextIndexFsMIDhcpSnpGlobalConfigTable(tSnmpIndex *, tSnmpIndex *);$/;"	p	signature:(tSnmpIndex *, tSnmpIndex *)
+GetNextIndexFsMIDhcpSnpInterfaceTable	fsmidhwr.h	/^INT4 GetNextIndexFsMIDhcpSnpInterfaceTable(tSnmpIndex *, tSnmpIndex *);$/;"	p	signature:(tSnmpIndex *, tSnmpIndex *)
+HostIPv6	l2dstdfs.h	/^	tIp6Addr	HostIPv6;				\/* Host ipv6 address *\/$/;"	m	struct:_L2DS6Pkt	access:public
+IPv4Hdr	l2dstdfs.h	/^	t_IP_HEADER			IPv4Hdr;			\/* IPv4 Header *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+IPv6Hdr	l2dstdfs.h	/^	tIp6Hdr				IPv6Hdr;			\/* IPv6 Header *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+InterfaceEntry	l2dstdfs.h	/^    tRBTree     InterfaceEntry;           \/* RBTree for Interface entry *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+IntfEntryPoolId	l2dstdfs.h	/^    tMemPoolId  IntfEntryPoolId;          \/* Memory pool ID for interface$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+L2DS6Pkt	l2dstdfs.h	/^	tL2DhcpSnpPktInfo6Pkt	L2DS6Pkt;		\/* DHCP6 Packet informations *\/ $/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+L2DS6_CIADDR_LEN	l2dsdefn.h	135;"	d
+L2DS6_CI_OPTION_TYPE	l2dsdefn.h	150;"	d
+L2DS6_IA_OFFSET	l2dsdefn.h	138;"	d
+L2DS6_IA_OPTION_TYPE	l2dsdefn.h	153;"	d
+L2DS6_IP6ADDR_LEN	l2dsdefn.h	141;"	d
+L2DS6_LIFETIME_LEN	l2dsdefn.h	144;"	d
+L2DS6_OPTION_TYPE_LEN	l2dsdefn.h	147;"	d
+L2DS6_XID_LEN	l2dsdefn.h	132;"	d
+L2DSCliSelectContextOnMode	l2dsprot.h	/^PUBLIC INT4 L2DSCliSelectContextOnMode (tCliHandle CliHandle, UINT4 u4Cmd,$/;"	p	signature:(tCliHandle CliHandle, UINT4 u4Cmd, UINT4 *pu4Context)
+L2DSFdb	l2dstdfs.h	/^	tL2DhcpSnpFdb	L2DSFdb[L2DS_MAX_FDB_ENTRY];$/;"	m	struct:_L2DhcpSnpFdbGlob	access:public
+L2DSMemPoolIds	l2dssz.h	/^tMemPoolId L2DSMemPoolIds[ L2DS_MAX_SIZING_ID];$/;"	v
+L2DSPkt	l2dstdfs.h	/^	tL2DhcpSnpPacket  		L2DSPkt;		\/* DHCP Packet informations *\/ $/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+L2DS_ACCESS_NODE_ARRAY_LEN	l2dsdefn.h	82;"	d
+L2DS_ACCESS_NODE_LEN	l2dsdefn.h	81;"	d
+L2DS_ACTIVE	l2dsmacs.h	79;"	d
+L2DS_ADD_OP82_STATUS	l2dsmacs.h	52;"	d
+L2DS_ADMIN_STATUS	l2dsmacs.h	38;"	d
+L2DS_ALLOC_MEM_BLOCK	l2dsmacs.h	133;"	d
+L2DS_BACKUP_DB_STATUS	l2dsmacs.h	64;"	d
+L2DS_BACKUP_INTERVAL	l2dsmacs.h	56;"	d
+L2DS_BCAST_MAC_ADDR	l2dsdefn.h	264;"	d
+L2DS_BROADCAST	l2dsdefn.h	162;"	d
+L2DS_BYTE_IN_WORD	l2dsdefn.h	158;"	d
+L2DS_CHADDR_OFFSET	l2dsdefn.h	116;"	d
+L2DS_CIADDR_OFFSET	l2dsdefn.h	112;"	d
+L2DS_CIRCUIT_ID_HEADER_LEN	l2dsdefn.h	97;"	d
+L2DS_CIRCUIT_ID_TYPE	l2dsdefn.h	87;"	d
+L2DS_CIRCUIT_LEN	l2dsdefn.h	88;"	d
+L2DS_CIRCUIT_MAX_LEN	l2dsdefn.h	220;"	d
+L2DS_CIRCUIT_SUBOPT	l2dsdefn.h	85;"	d
+L2DS_CIRCUIT_SUBOPT_LEN	l2dsdefn.h	86;"	d
+L2DS_COPY_FROM_BUF	l2dsmacs.h	119;"	d
+L2DS_CREATE_AND_GO	l2dsmacs.h	83;"	d
+L2DS_CREATE_AND_WAIT	l2dsmacs.h	82;"	d
+L2DS_CREATE_MEM_POOL	l2dsmacs.h	123;"	d
+L2DS_CREATE_QUEUE	l2dsmacs.h	94;"	d
+L2DS_CREATE_RBTREE	l2dsmacs.h	72;"	d
+L2DS_CREATE_SEM	l2dsmacs.h	98;"	d
+L2DS_CURR_CXT_ID	l2dsmacs.h	22;"	d
+L2DS_DEFAULT_CXT_ID	l2dsdefn.h	36;"	d
+L2DS_DELETE_MEM_POOL	l2dsmacs.h	125;"	d
+L2DS_DELETE_QUEUE	l2dsmacs.h	95;"	d
+L2DS_DELETE_RBTREE	l2dsmacs.h	73;"	d
+L2DS_DELETE_SEM	l2dsmacs.h	99;"	d
+L2DS_DESTROY	l2dsmacs.h	84;"	d
+L2DS_DHCP6_ADVERTISE	l2dsdefn.h	186;"	d
+L2DS_DHCP6_CONFIRM	l2dsdefn.h	188;"	d
+L2DS_DHCP6_DECLINE	l2dsdefn.h	193;"	d
+L2DS_DHCP6_INFO_REQUEST	l2dsdefn.h	195;"	d
+L2DS_DHCP6_REBIND	l2dsdefn.h	190;"	d
+L2DS_DHCP6_RECONFIG	l2dsdefn.h	194;"	d
+L2DS_DHCP6_RELAY_FWD	l2dsdefn.h	196;"	d
+L2DS_DHCP6_RELAY_REPLY	l2dsdefn.h	197;"	d
+L2DS_DHCP6_RELEASE	l2dsdefn.h	192;"	d
+L2DS_DHCP6_RENEW	l2dsdefn.h	189;"	d
+L2DS_DHCP6_REPLY	l2dsdefn.h	191;"	d
+L2DS_DHCP6_REQUEST	l2dsdefn.h	187;"	d
+L2DS_DHCP6_SOLICIT	l2dsdefn.h	185;"	d
+L2DS_DHCP_ACK	l2dsdefn.h	179;"	d
+L2DS_DHCP_DECLINE	l2dsdefn.h	178;"	d
+L2DS_DHCP_DISCOVER	l2dsdefn.h	175;"	d
+L2DS_DHCP_FIXED_HDR_LEN	l2dsdefn.h	65;"	d
+L2DS_DHCP_HDR_OFFSET	l2dsmacs.h	178;"	d
+L2DS_DHCP_INFORM	l2dsdefn.h	182;"	d
+L2DS_DHCP_NACK	l2dsdefn.h	180;"	d
+L2DS_DHCP_OFFER	l2dsdefn.h	176;"	d
+L2DS_DHCP_OPT_OFFSET	l2dsmacs.h	187;"	d
+L2DS_DHCP_RELEASE	l2dsdefn.h	181;"	d
+L2DS_DHCP_REQUEST	l2dsdefn.h	177;"	d
+L2DS_DOWNSTREAM_PORT	l2dsdefn.h	251;"	d
+L2DS_DSL_ACTUAL_DWRATE	l2dsdefn.h	225;"	d
+L2DS_DSL_ACTUAL_UPRATE	l2dsdefn.h	224;"	d
+L2DS_DSL_MIN_DWRATE	l2dsdefn.h	227;"	d
+L2DS_DSL_MIN_UPRATE	l2dsdefn.h	226;"	d
+L2DS_DSL_OPTION_LEN	l2dsdefn.h	229;"	d
+L2DS_DYN_POOL_ID	l2dsmacs.h	111;"	d
+L2DS_EIGHT	l2dsdefn.h	/^	L2DS_EIGHT = 8,$/;"	e	enum:__anon1
+L2DS_ENTERPRISE_ID_LEN	l2dsdefn.h	230;"	d
+L2DS_ETHERNET_HDR_LEN	l2dsdefn.h	62;"	d
+L2DS_EVENTS	l2dsdefn.h	240;"	d
+L2DS_EVENT_ARRIVED	l2dsdefn.h	233;"	d
+L2DS_EVENT_WAIT_FLAG	l2dsmacs.h	105;"	d
+L2DS_FAILURE	l2dsmacs.h	88;"	d
+L2DS_FALSE	l2dsmacs.h	90;"	d
+L2DS_FDB_ENTRY_IDX	l2dsmacs.h	384;"	d
+L2DS_FDB_EXPIRE_TIME	l2dsdefn.h	307;"	d
+L2DS_FDB_TMR_OFFSET	l2dsmacs.h	383;"	d
+L2DS_FILE_LEN	l2dsdefn.h	78;"	d
+L2DS_FILE_OFFSET	l2dsdefn.h	118;"	d
+L2DS_FIXED_LEN	l2dsdefn.h	68;"	d
+L2DS_FOUND	l2dsdefn.h	257;"	d
+L2DS_FOUR	l2dsdefn.h	/^	L2DS_FOUR = 4,$/;"	e	enum:__anon1
+L2DS_FWD_OP82_STATUS	l2dsmacs.h	60;"	d
+L2DS_GIADDR_OFFSET	l2dsdefn.h	115;"	d
+L2DS_GIVE_SEM	l2dsmacs.h	101;"	d
+L2DS_HDR_LEN_WITH_COOKIE	l2dsdefn.h	66;"	d
+L2DS_HRDW_ADD_LEN	l2dsdefn.h	76;"	d
+L2DS_INCR_STAT_MAC_DISC	l2dsmacs.h	345;"	d
+L2DS_INCR_STAT_OPT_DISC	l2dsmacs.h	369;"	d
+L2DS_INCR_STAT_RX_DECL	l2dsmacs.h	273;"	d
+L2DS_INCR_STAT_RX_DISC	l2dsmacs.h	237;"	d
+L2DS_INCR_STAT_RX_INTF	l2dsmacs.h	285;"	d
+L2DS_INCR_STAT_RX_RELS	l2dsmacs.h	261;"	d
+L2DS_INCR_STAT_RX_REQS	l2dsmacs.h	249;"	d
+L2DS_INCR_STAT_SRV_DISC	l2dsmacs.h	357;"	d
+L2DS_INCR_STAT_TOTAL_DISC	l2dsmacs.h	333;"	d
+L2DS_INCR_STAT_TX_ACKS	l2dsmacs.h	309;"	d
+L2DS_INCR_STAT_TX_NAKS	l2dsmacs.h	321;"	d
+L2DS_INCR_STAT_TX_OFFR	l2dsmacs.h	297;"	d
+L2DS_INTF_MEMBLK_SIZE	l2dsmacs.h	143;"	d
+L2DS_INTF_POOL_ID	l2dsmacs.h	146;"	d
+L2DS_INTF_RBTREE	l2dsmacs.h	70;"	d
+L2DS_INTF_SNP_STATUS	l2dsmacs.h	232;"	d
+L2DS_INT_ROWSTATUS	l2dsmacs.h	229;"	d
+L2DS_INVALID_CXT_ID	l2dsdefn.h	35;"	d
+L2DS_INVALID_FDB_IDX	l2dsdefn.h	305;"	d
+L2DS_IPDB_CREATE	l2dsdefn.h	29;"	d
+L2DS_IPDB_DELETE	l2dsdefn.h	30;"	d
+L2DS_IPDST_ADDR_OFFSET	l2dsmacs.h	166;"	d
+L2DS_IPSRC_ADDR_OFFSET	l2dsmacs.h	162;"	d
+L2DS_IP_ADDR_LEN	l2dsdefn.h	127;"	d
+L2DS_IP_DGRAM_LEN	l2dsdefn.h	120;"	d
+L2DS_IP_HDRLEN_BITMASK	l2dsdefn.h	157;"	d
+L2DS_IP_HDR_CKSUM_LEN	l2dsdefn.h	121;"	d
+L2DS_IP_HDR_CKSUM_OFFSET	l2dsmacs.h	158;"	d
+L2DS_IP_HEADER_LEN	l2dsdefn.h	63;"	d
+L2DS_IP_IPTYPE_BITMASK	l2dsdefn.h	156;"	d
+L2DS_IP_LENGTH_OFFSET	l2dsmacs.h	154;"	d
+L2DS_IS_CONTEXT_EXIST	l2dsmacs.h	45;"	d
+L2DS_LOCK	l2dsmacs.h	34;"	d
+L2DS_MAC_BCAST	l2dsdefn.h	267;"	d
+L2DS_MAC_UCAST	l2dsdefn.h	268;"	d
+L2DS_MAC_VERIFY_STATUS	l2dsmacs.h	42;"	d
+L2DS_MAGIC_COOKIE_LEN	l2dsdefn.h	73;"	d
+L2DS_MAGIC_COOKIE_OFFSET	l2dsmacs.h	182;"	d
+L2DS_MAX_CONTEXTS	l2dsdefn.h	34;"	d
+L2DS_MAX_DYN_POOL	l2dsmacs.h	116;"	d
+L2DS_MAX_FDB_ENTRY	l2dsdefn.h	304;"	d
+L2DS_MAX_MTU	l2dsdefn.h	56;"	d
+L2DS_MAX_NUM_VLAN	l2dsmacs.h	26;"	d
+L2DS_MAX_OPT_LEN	l2dsdefn.h	219;"	d
+L2DS_MAX_SIZING_ID	l2dssz.h	/^    L2DS_MAX_SIZING_ID$/;"	e	enum:__anon2
+L2DS_MAX_VLAN_ID	l2dsmacs.h	28;"	d
+L2DS_MEMBLK_SIZE	l2dsmacs.h	144;"	d
+L2DS_MEMORY_TYPE	l2dsmacs.h	142;"	d
+L2DS_MIB_RESTORE_OVER	l2dsdefn.h	237;"	d
+L2DS_MINUS_ONE	l2dsdefn.h	37;"	d
+L2DS_MIN_NUM_VLAN	l2dsdefn.h	33;"	d
+L2DS_MIN_VLAN_ID	l2dsmacs.h	29;"	d
+L2DS_MODULE_NAME	l2dsdefn.h	24;"	d
+L2DS_NOT_FOUND	l2dsdefn.h	258;"	d
+L2DS_NOT_IN_SERVICE	l2dsmacs.h	80;"	d
+L2DS_NOT_READY	l2dsmacs.h	81;"	d
+L2DS_NTOHL	l2dsmacs.h	92;"	d
+L2DS_OFFSET	l2dsmacs.h	382;"	d
+L2DS_ONE	l2dsdefn.h	/^	L2DS_ONE = 1,$/;"	e	enum:__anon1
+L2DS_OPTIONS_COOKIE	l2dsdefn.h	173;"	d
+L2DS_OPTION_ADD	l2dsdefn.h	169;"	d
+L2DS_OPTION_DEL	l2dsdefn.h	170;"	d
+L2DS_OPTION_LEN	l2dsdefn.h	125;"	d
+L2DS_OPTION_VAL_OFFSET	l2dsdefn.h	105;"	d
+L2DS_OPT_BOOT_FILE_NAME	l2dsdefn.h	215;"	d
+L2DS_OPT_CLIENT_ID	l2dsdefn.h	213;"	d
+L2DS_OPT_DNS_NAME	l2dsdefn.h	204;"	d
+L2DS_OPT_DNS_NS	l2dsdefn.h	203;"	d
+L2DS_OPT_END	l2dsdefn.h	218;"	d
+L2DS_OPT_LEASE_TIME	l2dsdefn.h	207;"	d
+L2DS_OPT_MAX_MESSAGE_SIZE	l2dsdefn.h	212;"	d
+L2DS_OPT_MSG_TYPE	l2dsdefn.h	209;"	d
+L2DS_OPT_OVERLOAD	l2dsdefn.h	208;"	d
+L2DS_OPT_PAD	l2dsdefn.h	200;"	d
+L2DS_OPT_PARAMETER_LIST	l2dsdefn.h	211;"	d
+L2DS_OPT_RAI	l2dsdefn.h	217;"	d
+L2DS_OPT_REQUESTED_IP	l2dsdefn.h	206;"	d
+L2DS_OPT_ROUTER_OPTION	l2dsdefn.h	202;"	d
+L2DS_OPT_SERVER_ID	l2dsdefn.h	210;"	d
+L2DS_OPT_SUBNET_MASK	l2dsdefn.h	201;"	d
+L2DS_OPT_TFTP_SNAME	l2dsdefn.h	214;"	d
+L2DS_OPT_USER_CLASS	l2dsdefn.h	216;"	d
+L2DS_OPT_VENDOR_SPEC	l2dsdefn.h	205;"	d
+L2DS_PKT_INFO_POOL_ID	l2dsmacs.h	112;"	d
+L2DS_PKT_RECEIVE_EVENT	l2dsdefn.h	235;"	d
+L2DS_PRINT_FDB_TIME	l2dsdefn.h	309;"	d
+L2DS_QUEUE_DEPTH	l2dsdefn.h	26;"	d
+L2DS_QUEUE_ID	l2dsmacs.h	109;"	d
+L2DS_QUEUE_NAME	l2dsdefn.h	23;"	d
+L2DS_Q_POOL_ID	l2dsmacs.h	147;"	d
+L2DS_RECEIVE_EVENT	l2dsmacs.h	102;"	d
+L2DS_RECEIVE_Q_FLAG	l2dsmacs.h	106;"	d
+L2DS_RECV_FROM_QUEUE	l2dsmacs.h	97;"	d
+L2DS_RELEASE_MEM_BLOCK	l2dsmacs.h	136;"	d
+L2DS_REMOTE_ID_TYPE	l2dsdefn.h	101;"	d
+L2DS_REMOTE_LEN	l2dsdefn.h	102;"	d
+L2DS_REMOTE_SUBOPT	l2dsdefn.h	99;"	d
+L2DS_REMOTE_SUBOPT_LEN	l2dsdefn.h	100;"	d
+L2DS_SEM_COUNT	l2dsdefn.h	25;"	d
+L2DS_SEM_FLAGS	l2dsmacs.h	107;"	d
+L2DS_SEM_ID	l2dsmacs.h	110;"	d
+L2DS_SEM_NAME	l2dsdefn.h	22;"	d
+L2DS_SEND_EVENT	l2dsmacs.h	103;"	d
+L2DS_SEND_TO_QUEUE	l2dsmacs.h	96;"	d
+L2DS_SEVEN	l2dsdefn.h	/^	L2DS_SEVEN = 7,$/;"	e	enum:__anon1
+L2DS_SIADDR_OFFSET	l2dsdefn.h	114;"	d
+L2DS_SIX	l2dsdefn.h	/^	L2DS_SIX = 6,$/;"	e	enum:__anon1
+L2DS_SIXTEEN	l2dsdefn.h	/^	L2DS_SIXTEEN = 16$/;"	e	enum:__anon1
+L2DS_SNAME_LEN	l2dsdefn.h	77;"	d
+L2DS_SNAME_OFFSET	l2dsdefn.h	117;"	d
+L2DS_SRCMAC_OFFSET	l2dsdefn.h	108;"	d
+L2DS_STAT_MAC_DISC	l2dsmacs.h	220;"	d
+L2DS_STAT_OPT_DISC	l2dsmacs.h	226;"	d
+L2DS_STAT_RX_DECL	l2dsmacs.h	202;"	d
+L2DS_STAT_RX_DISC	l2dsmacs.h	193;"	d
+L2DS_STAT_RX_INF	l2dsmacs.h	205;"	d
+L2DS_STAT_RX_RELS	l2dsmacs.h	199;"	d
+L2DS_STAT_RX_REQS	l2dsmacs.h	196;"	d
+L2DS_STAT_SRV_DISC	l2dsmacs.h	223;"	d
+L2DS_STAT_TTL_DISC	l2dsmacs.h	217;"	d
+L2DS_STAT_TX_ACKS	l2dsmacs.h	211;"	d
+L2DS_STAT_TX_NAKS	l2dsmacs.h	214;"	d
+L2DS_STAT_TX_OFFR	l2dsmacs.h	208;"	d
+L2DS_SUBOPT_DSL	l2dsdefn.h	222;"	d
+L2DS_SUBOPT_ENTERPRISE_ID	l2dsdefn.h	223;"	d
+L2DS_SUB_OPTION_DATA_LEN	l2dsmacs.h	76;"	d
+L2DS_SUCCESS	l2dsmacs.h	87;"	d
+L2DS_TAKE_SEM	l2dsmacs.h	100;"	d
+L2DS_TASK_NAME	l2dsdefn.h	21;"	d
+L2DS_THREE	l2dsdefn.h	/^	L2DS_THREE = 3,$/;"	e	enum:__anon1
+L2DS_TIMER_EVENT	l2dsdefn.h	236;"	d
+L2DS_TMR_DB	l2dsdefn.h	238;"	d
+L2DS_TMR_DB_BLK	l2dsmacs.h	114;"	d
+L2DS_TMR_FDB	l2dsdefn.h	306;"	d
+L2DS_TMR_LIST	l2dsmacs.h	113;"	d
+L2DS_TMR_PRINT_FDB	l2dsdefn.h	308;"	d
+L2DS_TRC	l2dsdefn.h	324;"	d
+L2DS_TRC	l2dsdefn.h	346;"	d
+L2DS_TRC_ARG1	l2dsdefn.h	327;"	d
+L2DS_TRC_ARG1	l2dsdefn.h	347;"	d
+L2DS_TRC_ARG2	l2dsdefn.h	330;"	d
+L2DS_TRC_ARG2	l2dsdefn.h	348;"	d
+L2DS_TRC_ARG3	l2dsdefn.h	333;"	d
+L2DS_TRC_ARG3	l2dsdefn.h	349;"	d
+L2DS_TRC_ARG4	l2dsdefn.h	336;"	d
+L2DS_TRC_ARG4	l2dsdefn.h	350;"	d
+L2DS_TRC_ARG5	l2dsdefn.h	339;"	d
+L2DS_TRC_ARG5	l2dsdefn.h	351;"	d
+L2DS_TRC_ARG6	l2dsdefn.h	342;"	d
+L2DS_TRC_ARG6	l2dsdefn.h	352;"	d
+L2DS_TRC_ERR	l2dsdefn.h	317;"	d
+L2DS_TRC_FDB	l2dsdefn.h	318;"	d
+L2DS_TRC_FLAG	l2dsmacs.h	21;"	d
+L2DS_TRC_NAME	l2dsdefn.h	315;"	d
+L2DS_TRC_NONE	l2dsdefn.h	316;"	d
+L2DS_TRUE	l2dsmacs.h	89;"	d
+L2DS_TRUSTED_PORT	l2dsdefn.h	253;"	d
+L2DS_TWO	l2dsdefn.h	/^	L2DS_TWO = 2,$/;"	e	enum:__anon1
+L2DS_UDP_CKSUM_LEN	l2dsdefn.h	261;"	d
+L2DS_UDP_CKSUM_OFFSET	l2dsmacs.h	174;"	d
+L2DS_UDP_DGRAM_LEN	l2dsdefn.h	123;"	d
+L2DS_UDP_HDR_LEN_OFFSET	l2dsmacs.h	170;"	d
+L2DS_UDP_HEADER_LEN	l2dsdefn.h	64;"	d
+L2DS_UDP_PROTO_ID	l2dsdefn.h	54;"	d
+L2DS_UNICAST	l2dsdefn.h	161;"	d
+L2DS_UNLOCK	l2dsmacs.h	35;"	d
+L2DS_UNTRUSTED_PORT	l2dsdefn.h	254;"	d
+L2DS_UPDATE_DB_NO	l2dsdefn.h	165;"	d
+L2DS_UPDATE_DB_YES	l2dsdefn.h	166;"	d
+L2DS_UPSTREAM_PORT	l2dsdefn.h	250;"	d
+L2DS_VENDOR_OPTION_LEN	l2dsdefn.h	231;"	d
+L2DS_VLAN_BROADCAST	l2dsdefn.h	246;"	d
+L2DS_VLAN_INTERFACE_EVENT	l2dsdefn.h	234;"	d
+L2DS_VLAN_MULTICAST	l2dsdefn.h	247;"	d
+L2DS_VLAN_PROTOCOL_ID	l2dsmacs.h	32;"	d
+L2DS_VLAN_UNICAST	l2dsdefn.h	245;"	d
+L2DS_XID_LEN	l2dsdefn.h	129;"	d
+L2DS_XID_OFFSET	l2dsdefn.h	111;"	d
+L2DS_YIADDR_OFFSET	l2dsdefn.h	113;"	d
+L2DS_ZERO	l2dsdefn.h	/^	L2DS_ZERO = 0,$/;"	e	enum:__anon1
+L2DhcpSnpQId	l2dstdfs.h	/^    tOsixQId    L2DhcpSnpQId;             \/* Id of Queue *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+L2DhcpSnpSemId	l2dstdfs.h	/^    tOsixSemId  L2DhcpSnpSemId;           \/* Semapore for the module *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+L2DsPktInfoPoolId	l2dstdfs.h	/^    tMemPoolId  L2DsPktInfoPoolId;        \/* Memory PoolID for tL2DhcpSnpPktInfo*\/   $/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+L2DsUtilCalcIpCkSum	l2dsprot.h	/^INT2 L2DsUtilCalcIpCkSum (UINT1 *, UINT4);$/;"	p	signature:(UINT1 *, UINT4)
+L2dsCliPrintVlanInformation	l2dsprot.h	/^INT4 L2dsCliPrintVlanInformation (tCliHandle, INT4, UINT4 *);$/;"	p	signature:(tCliHandle, INT4, UINT4 *)
+L2dsCliSetMacVerifyStatus	l2dsprot.h	/^INT4 L2dsCliSetMacVerifyStatus (tCliHandle, INT4);$/;"	p	signature:(tCliHandle, INT4)
+L2dsCliSetPortState	l2dsprot.h	/^INT4 L2dsCliSetPortState (tCliHandle, UINT4, INT4);$/;"	p	signature:(tCliHandle, UINT4, INT4)
+L2dsCliSetSnoopingStatus	l2dsprot.h	/^INT4 L2dsCliSetSnoopingStatus (tCliHandle, INT4);$/;"	p	signature:(tCliHandle, INT4)
+L2dsCliSetSnpIfaceStatus	l2dsprot.h	/^INT4 L2dsCliSetSnpIfaceStatus (tCliHandle, INT4, INT4);$/;"	p	signature:(tCliHandle, INT4, INT4)
+L2dsCliSetTrace	l2dsprot.h	/^INT4 L2dsCliSetTrace (INT4);$/;"	p	signature:(INT4)
+L2dsCliShowSnpGlobConf	l2dsprot.h	/^INT4 L2dsCliShowSnpGlobConf (tCliHandle,UINT1 *);$/;"	p	signature:(tCliHandle,UINT1 *)
+L2dsCliShowSnpVlanConf	l2dsprot.h	/^INT4 L2dsCliShowSnpVlanConf (tCliHandle, UINT1 *, INT4);$/;"	p	signature:(tCliHandle, UINT1 *, INT4)
+L2dsGetContextId	l2dsprot.h	/^PUBLIC UINT4 L2dsGetContextId (UINT4);$/;"	p	signature:(UINT4)
+L2dsGetNextActiveContext	l2dsprot.h	/^PUBLIC INT4 L2dsGetNextActiveContext PROTO ((UINT4 , UINT4 *));$/;"	p	signature:(UINT4 , UINT4 *)
+L2dsGetVcmSystemMode	l2dsprot.h	/^PUBLIC INT4 L2dsGetVcmSystemMode (UINT2);$/;"	p	signature:(UINT2)
+L2dsGetVcmSystemModeExt	l2dsprot.h	/^PUBLIC INT4 L2dsGetVcmSystemModeExt (UINT2);$/;"	p	signature:(UINT2)
+L2dsIntfCreateIntfEntry	l2dsprot.h	/^PUBLIC tL2DhcpSnpIfaceEntry *L2dsIntfCreateIntfEntry PROTO ((UINT4, tVlanId));$/;"	p	signature:(UINT4, tVlanId)
+L2dsIntfDeleteIntfEntry	l2dsprot.h	/^PUBLIC INT4 L2dsIntfDeleteIntfEntry PROTO ((UINT4, tVlanId));$/;"	p	signature:(UINT4, tVlanId)
+L2dsMainAssignMempoolIds	l2dsprot.h	/^VOID L2dsMainAssignMempoolIds (VOID);$/;"	p	signature:(VOID)
+L2dsMainDeInit	l2dsprot.h	/^VOID L2dsMainDeInit (VOID);$/;"	p	signature:(VOID)
+L2dsMainInit	l2dsprot.h	/^INT4 L2dsMainInit (VOID);$/;"	p	signature:(VOID)
+L2dsMainProcessEvent	l2dsprot.h	/^VOID L2dsMainProcessEvent (VOID);$/;"	p	signature:(VOID)
+L2dsMainTmr	l2dsprot.h	/^INT4 L2dsMainTmr(VOID);$/;"	p	signature:(VOID)
+L2dsPktGetPktInfo	l2dsprot.h	/^INT4 L2dsPktGetPktInfo (UINT1 *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT1 *, tL2DhcpSnpPktInfo *)
+L2dsPktHdl	l2dsprot.h	/^INT4 L2dsPktHdl (tCRU_BUF_CHAIN_HEADER *, UINT4, UINT4, tVlanTag);$/;"	p	signature:(tCRU_BUF_CHAIN_HEADER *, UINT4, UINT4, tVlanTag)
+L2dsPktHdlV4FromDown	l2dsprot.h	/^INT4 L2dsPktHdlV4FromDown (UINT1 *, tL2DhcpSnpIfaceEntry *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT1 *, tL2DhcpSnpIfaceEntry *, tL2DhcpSnpPktInfo *)
+L2dsPktHdlV4FromUp	l2dsprot.h	/^INT4 L2dsPktHdlV4FromUp (UINT1 *, tL2DhcpSnpIfaceEntry *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT1 *, tL2DhcpSnpIfaceEntry *, tL2DhcpSnpPktInfo *)
+L2dsPktHdlV6FromDown	l2dsprot.h	/^INT4 L2dsPktHdlV6FromDown (UINT1 *, tL2DhcpSnpIfaceEntry *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT1 *, tL2DhcpSnpIfaceEntry *, tL2DhcpSnpPktInfo *)
+L2dsPktHdlV6FromUp	l2dsprot.h	/^INT4 L2dsPktHdlV6FromUp (UINT1 *, tL2DhcpSnpIfaceEntry *, tL2DhcpSnpPktInfo *);$/;"	p	signature:(UINT1 *, tL2DhcpSnpIfaceEntry *, tL2DhcpSnpPktInfo *)
+L2dsPktStatUpd	l2dsprot.h	/^VOID L2dsPktStatUpd (UINT1, tL2DhcpSnpIfaceEntry *);$/;"	p	signature:(UINT1, tL2DhcpSnpIfaceEntry *)
+L2dsPortCalcIpCkSum	l2dsprot.h	/^INT2 L2dsPortCalcIpCkSum (UINT1 *, UINT4);$/;"	p	signature:(UINT1 *, UINT4)
+L2dsPortDeleteEntries	l2dsprot.h	/^INT4 L2dsPortDeleteEntries (UINT4, tVlanId);$/;"	p	signature:(UINT4, tVlanId)
+L2dsPortForwardPkt	l2dsprot.h	/^INT4 L2dsPortForwardPkt (tCRU_BUF_CHAIN_HEADER *, UINT4, tVlanTag, UINT4, tMacAddr, $/;"	p	signature:(tCRU_BUF_CHAIN_HEADER *, UINT4, tVlanTag, UINT4, tMacAddr, tMacAddr, tPortList)
+L2dsPortGetCVlanTag	l2dsprot.h	/^INT4 L2dsPortGetCVlanTag (UINT1 *, UINT2, tVlanId *);$/;"	p	signature:(UINT1 *, UINT2, tVlanId *)
+L2dsPortGetDefaultCTag	l2dsprot.h	/^INT4 L2dsPortGetDefaultCTag (UINT4, tVlanId *);$/;"	p	signature:(UINT4, tVlanId *)
+L2dsPortGetDslOptions	l2dsprot.h	/^INT4 L2dsPortGetDslOptions (UINT1 *, UINT1 *, UINT4, tVlanTag);$/;"	p	signature:(UINT1 *, UINT1 *, UINT4, tVlanTag)
+L2dsPortGetEtherHdrLen	l2dsprot.h	/^INT4 L2dsPortGetEtherHdrLen (tCRU_BUF_CHAIN_HEADER *, UINT4, UINT2 *);$/;"	p	signature:(tCRU_BUF_CHAIN_HEADER *, UINT4, UINT2 *)
+L2dsPortGetPortState	l2dsprot.h	/^INT4 L2dsPortGetPortState (UINT2, UINT1 *);$/;"	p	signature:(UINT2, UINT1 *)
+L2dsPortGetPortType	l2dsprot.h	/^INT4 L2dsPortGetPortType (UINT2, UINT1 *);$/;"	p	signature:(UINT2, UINT1 *)
+L2dsPortGetTrustedList	l2dsprot.h	/^INT4 L2dsPortGetTrustedList (UINT4, tVlanId, tPortList);$/;"	p	signature:(UINT4, tVlanId, tPortList)
+L2dsPortGetUpStreamList	l2dsprot.h	/^INT4 L2dsPortGetUpStreamList (UINT4, tVlanId, tPortList);$/;"	p	signature:(UINT4, tVlanId, tPortList)
+L2dsPortUpdateEntry	l2dsprot.h	/^INT4 L2dsPortUpdateEntry (UINT4 u4ContextId, $/;"	p	signature:(UINT4 u4ContextId, tL2DhcpSnpPktInfo * pL2DSPktInfo, UINT1 u1Action)
+L2dsPrintContextInfo	l2dsprot.h	/^PUBLIC VOID L2dsPrintContextInfo PROTO ((tCliHandle CliHandle, $/;"	p	signature:(tCliHandle CliHandle, INT4 i4ContextId)
+L2dsPrintGlobalSnoopingStatus	l2dsprot.h	/^PUBLIC VOID L2dsPrintGlobalSnoopingStatus PROTO ((tCliHandle, INT4));$/;"	p	signature:(tCliHandle, INT4)
+L2dsPrintMacVerifyStatus	l2dsprot.h	/^PUBLIC VOID L2dsPrintMacVerifyStatus PROTO ((tCliHandle CliHandle, $/;"	p	signature:(tCliHandle CliHandle, INT4 i4Status)
+L2dsReleaseContext	l2dsprot.h	/^PUBLIC VOID L2dsReleaseContext PROTO  ((VOID));$/;"	p	signature:(VOID)
+L2dsSelectContext	l2dsprot.h	/^PUBLIC INT4 L2dsSelectContext PROTO  ((UINT4 ));$/;"	p	signature:(UINT4 )
+L2dsShowRunningConfig	l2dsprot.h	/^INT4 L2dsShowRunningConfig (tCliHandle);$/;"	p	signature:(tCliHandle)
+L2dsShowRunningConfigDetails	l2dsprot.h	/^INT4 L2dsShowRunningConfigDetails (tCliHandle, INT4);$/;"	p	signature:(tCliHandle, INT4)
+L2dsShowRunningConfigGetId	l2dsprot.h	/^INT4 L2dsShowRunningConfigGetId (tCliHandle);$/;"	p	signature:(tCliHandle)
+L2dsSizingMemCreateMemPools	l2dssz.h	/^INT4  L2dsSizingMemCreateMemPools(VOID);$/;"	p	signature:(VOID)
+L2dsSizingMemCreateMemPools	l2dssz.h	/^extern INT4  L2dsSizingMemCreateMemPools(VOID);$/;"	p	signature:(VOID)
+L2dsSizingMemDeleteMemPools	l2dssz.h	/^VOID  L2dsSizingMemDeleteMemPools(VOID);$/;"	p	signature:(VOID)
+L2dsSizingMemDeleteMemPools	l2dssz.h	/^extern VOID  L2dsSizingMemDeleteMemPools(VOID);$/;"	p	signature:(VOID)
+L2dsSzRegisterModuleSizingParams	l2dssz.h	/^INT4  L2dsSzRegisterModuleSizingParams( CHR1 *pu1ModName);$/;"	p	signature:( CHR1 *pu1ModName)
+L2dsSzRegisterModuleSizingParams	l2dssz.h	/^extern INT4  L2dsSzRegisterModuleSizingParams( CHR1 *pu1ModName); $/;"	p	signature:( CHR1 *pu1ModName)
+L2dsUtilAddOptions	l2dsprot.h	/^INT4 L2dsUtilAddOptions ( tL2DhcpSnpPktInfo *, UINT2 *);$/;"	p	signature:( tL2DhcpSnpPktInfo *, UINT2 *)
+L2dsUtilCalcUdpCkSum	l2dsprot.h	/^INT2 L2dsUtilCalcUdpCkSum (UINT2, UINT4, UINT4, UINT1 *);$/;"	p	signature:(UINT2, UINT4, UINT4, UINT1 *)
+L2dsUtilGetAccessNodeId	l2dsprot.h	/^INT4 L2dsUtilGetAccessNodeId (tL2DhcpSnpOption *, UINT1, UINT1 *);$/;"	p	signature:(tL2DhcpSnpOption *, UINT1, UINT1 *)
+L2dsUtilGetDslOptions	l2dsprot.h	/^INT4 L2dsUtilGetDslOptions (UINT1 *, UINT1 *, UINT4, tVlanTag);$/;"	p	signature:(UINT1 *, UINT1 *, UINT4, tVlanTag)
+L2dsUtilGetFreeString	l2dsprot.h	/^INT4 L2dsUtilGetFreeString (tL2DhcpSnpOption *, UINT1, UINT1 *);$/;"	p	signature:(tL2DhcpSnpOption *, UINT1, UINT1 *)
+L2dsUtilGetOption	l2dsprot.h	/^INT4 L2dsUtilGetOption (tL2DhcpSnpPacket *, tL2DhcpSnpOption *, UINT1);$/;"	p	signature:(tL2DhcpSnpPacket *, tL2DhcpSnpOption *, UINT1)
+L2dsUtilGetPortAndVlanFromOption	l2dsprot.h	/^INT4 L2dsUtilGetPortAndVlanFromOption (tL2DhcpSnpOption *, UINT4 *, tVlanId *);$/;"	p	signature:(tL2DhcpSnpOption *, UINT4 *, tVlanId *)
+L2dsUtilGetRemoteIdMac	l2dsprot.h	/^INT4 L2dsUtilGetRemoteIdMac (tL2DhcpSnpOption *, tMacAddr);$/;"	p	signature:(tL2DhcpSnpOption *, tMacAddr)
+L2dsUtilLinearToCRU	l2dsprot.h	/^tCRU_BUF_CHAIN_HEADER *L2dsUtilLinearToCRU (UINT1 *, UINT4);$/;"	p	signature:(UINT1 *, UINT4)
+L2dsUtilRBTreeEntryFree	l2dsprot.h	/^VOID L2dsUtilRBTreeEntryFree (tRBElem *);$/;"	p	signature:(tRBElem *)
+L2dsUtilRBTreeIntfEntryCmp	l2dsprot.h	/^INT4 L2dsUtilRBTreeIntfEntryCmp (tRBElem *,tRBElem *);$/;"	p	signature:(tRBElem *,tRBElem *)
+L2dsUtilRegisterFsDhcSnpMib	l2dsprot.h	/^VOID L2dsUtilRegisterFsDhcSnpMib (VOID);$/;"	p	signature:(VOID)
+L2dsUtilReleaseLock	l2dsprot.h	/^INT4 L2dsUtilReleaseLock (VOID);$/;"	p	signature:(VOID)
+L2dsUtilRemoveOptions	l2dsprot.h	/^INT4 L2dsUtilRemoveOptions (tL2DhcpSnpPktInfo *, UINT1 *);$/;"	p	signature:(tL2DhcpSnpPktInfo *, UINT1 *)
+L2dsUtilTakeLock	l2dsprot.h	/^INT4 L2dsUtilTakeLock (VOID);$/;"	p	signature:(VOID)
+L2dsUtilValidateFreeString	l2dsprot.h	/^INT4 L2dsUtilValidateFreeString (tL2DhcpSnpOption *, UINT4 *);$/;"	p	signature:(tL2DhcpSnpOption *, UINT4 *)
+L2dsUtilVerifyCookie	l2dsprot.h	/^INT4 L2dsUtilVerifyCookie (UINT1 *);$/;"	p	signature:(UINT1 *)
+L2dsVcmGetContextInfoFromIfIndex	l2dsprot.h	/^INT4 L2dsVcmGetContextInfoFromIfIndex (UINT4, UINT4 *, UINT2 *);$/;"	p	signature:(UINT4, UINT4 *, UINT2 *)
+L2dsVcmIsSwitchExist	l2dsprot.h	/^INT4 L2dsVcmIsSwitchExist (UINT4);$/;"	p	signature:(UINT4)
+L2dsVcmIsSwitchNameExist	l2dsprot.h	/^PUBLIC INT4 L2dsVcmIsSwitchNameExist (UINT1 *, UINT4 *);$/;"	p	signature:(UINT1 *, UINT4 *)
+L2dsVcmIsVcExist	l2dsprot.h	/^PUBLIC INT4 L2dsVcmIsVcExist(UINT4);$/;"	p	signature:(UINT4)
+MAX_L2DS_IFACE_ENTRIES_SIZING_ID	l2dssz.h	/^    MAX_L2DS_IFACE_ENTRIES_SIZING_ID,$/;"	e	enum:__anon2
+MAX_L2DS_PDU_COUNT_SIZING_ID	l2dssz.h	/^    MAX_L2DS_PDU_COUNT_SIZING_ID,$/;"	e	enum:__anon2
+MAX_L2DS_PKT_INFO_SIZING_ID	l2dssz.h	/^    MAX_L2DS_PKT_INFO_SIZING_ID,$/;"	e	enum:__anon2
+MAX_L2DS_Q_MESG_SIZING_ID	l2dssz.h	/^    MAX_L2DS_Q_MESG_SIZING_ID,$/;"	e	enum:__anon2
+Mac	l2dstdfs.h	/^	tMacAddr	Mac;$/;"	m	struct:_L2DhcpSnpFdb	access:public
+PortList	l2dstdfs.h	/^	tPortList			PortList;			\/* Trusted post list *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+PrintFdbTmrBlk	l2dstdfs.h	/^	tTmrBlk			PrintFdbTmrBlk;$/;"	m	struct:_L2DhcpSnpFdbGlob	access:public
+QMemPoolId	l2dstdfs.h	/^    tMemPoolId  QMemPoolId;               \/* Memory pool ID for Packet Q *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+RegisterFSDHCS	fsdhcswr.h	/^VOID RegisterFSDHCS(VOID);$/;"	p	signature:(VOID)
+RegisterFSMIDH	fsmidhwr.h	/^VOID RegisterFSMIDH(VOID);$/;"	p	signature:(VOID)
+RemoveChar	l2dsprot.h	/^extern VOID RemoveChar(CHR1[], CHR1);$/;"	p	signature:(CHR1[], CHR1)
+SYS_DEF_MAX_PHYSICAL_USER_INTERFACES	l2dsdefn.h	295;"	d
+SYS_DEF_MAX_PVCS	l2dsdefn.h	298;"	d
+SYS_DEF_MAX_PVCS_PER_PORT	l2dsdefn.h	296;"	d
+TRACE_WANTED	l2dsdefn.h	321;"	d
+TmrBlk	l2dstdfs.h	/^	tTmrBlk		TmrBlk;$/;"	m	struct:_L2DhcpSnpFdb	access:public
+TmrDBBlk	l2dstdfs.h	/^	tTmrBlk		TmrDBBlk;				   \/* refresh flsh db timer block *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+TmrListId	l2dstdfs.h	/^	tTimerListId TmrListId;				   \/* Timer list *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+UnRegisterFSDHCS	fsdhcswr.h	/^VOID UnRegisterFSDHCS(VOID);$/;"	p	signature:(VOID)
+UnRegisterFSMIDH	fsmidhwr.h	/^VOID UnRegisterFSMIDH(VOID);$/;"	p	signature:(VOID)
+Vid	l2dstdfs.h	/^    tVlanId		Vid;$/;"	m	struct:_L2DhcpSnpFdb	access:public
+VlanId	l2dstdfs.h	/^    tVlanId                 VlanId;       \/* VlanId *\/    $/;"	m	struct:_L2DhcpSnpQMsg	access:public
+VlanId	l2dstdfs.h	/^    tVlanId     VlanId;                \/* Vlan ID *\/ $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+VlanRbNode	l2dstdfs.h	/^    tRBNodeEmbd VlanRbNode;$/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+VlanTag	l2dstdfs.h	/^	tVlanTag			VlanTag;			\/* VlanId is OuterVlanTag, CVlanId is InnerVlanTag *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+VlanTag	l2dstdfs.h	/^    tVlanTag                VlanTag;      \/* Incoming VLAN tags *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+_CM_DHCPSNP_RULE_H_	cmdsrule.h	2;"	d
+_CM_DHCPSNP_TRAP_H_	cmdstrap.h	11;"	d
+_FSDHCLW_H	fsdhcslw.h	13;"	d
+_FSDHCSDB_H	fsdhcsdb.h	9;"	d
+_FSDHCSWR_H	fsdhcswr.h	2;"	d
+_FSMIDHDB_H	fsmidhdb.h	9;"	d
+_FSMIDHLW_H	fsmidhlw.h	10;"	d
+_FSMIDHWR_H	fsmidhwr.h	2;"	d
+_L2DS6Pkt	l2dstdfs.h	/^typedef struct _L2DS6Pkt{$/;"	s
+_L2DS6Pkt::Chaddr	l2dstdfs.h	/^	tMacAddr  	Chaddr;					\/* Client hardware address *\/$/;"	m	struct:_L2DS6Pkt	access:public
+_L2DS6Pkt::HostIPv6	l2dstdfs.h	/^	tIp6Addr	HostIPv6;				\/* Host ipv6 address *\/$/;"	m	struct:_L2DS6Pkt	access:public
+_L2DS6Pkt::u1MsgType	l2dstdfs.h	/^	UINT1		u1MsgType;				\/* DHCP6 message type *\/$/;"	m	struct:_L2DS6Pkt	access:public
+_L2DS6Pkt::u1Pad	l2dstdfs.h	/^	UINT1	  	u1Pad[1];				\/* Padding *\/$/;"	m	struct:_L2DS6Pkt	access:public
+_L2DS6Pkt::u4LeaseTime	l2dstdfs.h	/^	UINT4		u4LeaseTime;			\/* Lease durations specified *\/$/;"	m	struct:_L2DS6Pkt	access:public
+_L2DS6Pkt::u4TransID	l2dstdfs.h	/^	UINT4		u4TransID;				\/* Transaction-ID *\/$/;"	m	struct:_L2DS6Pkt	access:public
+_L2DSDEFN_H	l2dsdefn.h	2;"	d
+_L2DSEXTN_H	l2dsextn.h	2;"	d
+_L2DSGLOB_H	l2dsglob.h	2;"	d
+_L2DSINC_H	l2dsinc.h	2;"	d
+_L2DSMACS_H	l2dsmacs.h	2;"	d
+_L2DSPROT_H	l2dsprot.h	2;"	d
+_L2DSTDFS_H	l2dstdfs.h	2;"	d
+_L2DhcpSnpFdb	l2dstdfs.h	/^typedef struct _L2DhcpSnpFdb{$/;"	s
+_L2DhcpSnpFdb::Mac	l2dstdfs.h	/^	tMacAddr	Mac;$/;"	m	struct:_L2DhcpSnpFdb	access:public
+_L2DhcpSnpFdb::TmrBlk	l2dstdfs.h	/^	tTmrBlk		TmrBlk;$/;"	m	struct:_L2DhcpSnpFdb	access:public
+_L2DhcpSnpFdb::Vid	l2dstdfs.h	/^    tVlanId		Vid;$/;"	m	struct:_L2DhcpSnpFdb	access:public
+_L2DhcpSnpFdb::u4Port	l2dstdfs.h	/^	UINT4		u4Port;$/;"	m	struct:_L2DhcpSnpFdb	access:public
+_L2DhcpSnpFdbGlob	l2dstdfs.h	/^typedef struct _L2DhcpSnpFdbGlob{$/;"	s
+_L2DhcpSnpFdbGlob::L2DSFdb	l2dstdfs.h	/^	tL2DhcpSnpFdb	L2DSFdb[L2DS_MAX_FDB_ENTRY];$/;"	m	struct:_L2DhcpSnpFdbGlob	access:public
+_L2DhcpSnpFdbGlob::PrintFdbTmrBlk	l2dstdfs.h	/^	tTmrBlk			PrintFdbTmrBlk;$/;"	m	struct:_L2DhcpSnpFdbGlob	access:public
+_L2DhcpSnpFdbGlob::i4UsedNum	l2dstdfs.h	/^    INT4			i4UsedNum;$/;"	m	struct:_L2DhcpSnpFdbGlob	access:public
+_L2DhcpSnpGlobalConfig	l2dstdfs.h	/^typedef struct _L2DhcpSnpGlobalConfig $/;"	s
+_L2DhcpSnpGlobalConfig::u1AddOp82St	l2dstdfs.h	/^	UINT1		u1AddOp82St;	\/* Global DHCP Snooping insert Option82 Status *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+_L2DhcpSnpGlobalConfig::u1BkupDBSt	l2dstdfs.h	/^	UINT1		u1BkupDBSt;	\/* Whether backup Datebase backup to file *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+_L2DhcpSnpGlobalConfig::u1FwdOp82St	l2dstdfs.h	/^	UINT1		u1FwdOp82St;	\/* Whether forward packet with op82 option *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+_L2DhcpSnpGlobalConfig::u1IsContextExist	l2dstdfs.h	/^    UINT1       u1IsContextExist;         \/* To indicate whether the current $/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+_L2DhcpSnpGlobalConfig::u1MacVerifyStatus	l2dstdfs.h	/^    UINT1       u1MacVerifyStatus;        \/* Global MAC Verification status *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+_L2DhcpSnpGlobalConfig::u1Reserved	l2dstdfs.h	/^	UINT1		u1Reserved[2];	\/* Padding *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+_L2DhcpSnpGlobalConfig::u1SnpAdminStatus	l2dstdfs.h	/^    UINT1       u1SnpAdminStatus;         \/* Global DHCP snooping status *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+_L2DhcpSnpGlobalConfig::u4BkupItvl	l2dstdfs.h	/^	UINT4		u4BkupItvl;	\/* Datebase backup to file interval *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+_L2DhcpSnpGlobalInfo	l2dstdfs.h	/^typedef struct _L2DhcpSnpGlobalInfo$/;"	s
+_L2DhcpSnpGlobalInfo::DynamicPoolId	l2dstdfs.h	/^    tMemPoolId  DynamicPoolId;            \/* Memory Pool ID for Dynamic $/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::InterfaceEntry	l2dstdfs.h	/^    tRBTree     InterfaceEntry;           \/* RBTree for Interface entry *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::IntfEntryPoolId	l2dstdfs.h	/^    tMemPoolId  IntfEntryPoolId;          \/* Memory pool ID for interface$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::L2DhcpSnpQId	l2dstdfs.h	/^    tOsixQId    L2DhcpSnpQId;             \/* Id of Queue *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::L2DhcpSnpSemId	l2dstdfs.h	/^    tOsixSemId  L2DhcpSnpSemId;           \/* Semapore for the module *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::L2DsPktInfoPoolId	l2dstdfs.h	/^    tMemPoolId  L2DsPktInfoPoolId;        \/* Memory PoolID for tL2DhcpSnpPktInfo*\/   $/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::QMemPoolId	l2dstdfs.h	/^    tMemPoolId  QMemPoolId;               \/* Memory pool ID for Packet Q *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::TmrDBBlk	l2dstdfs.h	/^	tTmrBlk		TmrDBBlk;				   \/* refresh flsh db timer block *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::TmrListId	l2dstdfs.h	/^	tTimerListId TmrListId;				   \/* Timer list *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::u4DebugFlag	l2dstdfs.h	/^    UINT4       u4DebugFlag;              \/* Flag used for Trace *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpGlobalInfo::u4L2dsCurCxtId	l2dstdfs.h	/^    UINT4       u4L2dsCurCxtId;            \/* Current Context Identifier*\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+_L2DhcpSnpIfaceEntry	l2dstdfs.h	/^typedef struct _L2DhcpSnpIfaceEntry$/;"	s
+_L2DhcpSnpIfaceEntry::VlanId	l2dstdfs.h	/^    tVlanId     VlanId;                \/* Vlan ID *\/ $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::VlanRbNode	l2dstdfs.h	/^    tRBNodeEmbd VlanRbNode;$/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u1RowStatus	l2dstdfs.h	/^    UINT1       u1RowStatus;           \/* Row status *\/$/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u1VlanSnpStatus	l2dstdfs.h	/^    UINT1       u1VlanSnpStatus;       \/* L2 DHCP Snooping interface status *\/$/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4L2dsCxtId	l2dstdfs.h	/^    UINT4       u4L2dsCxtId;           \/* Context Identifier*\/$/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfMacDiscards	l2dstdfs.h	/^    UINT4       u4NoOfMacDiscards;     \/* Total number of DHCP packets from $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfOptionDiscards	l2dstdfs.h	/^    UINT4       u4NoOfOptionDiscards;  \/* Total number of DHCP packets from $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfRxDeclines	l2dstdfs.h	/^    UINT4       u4NoOfRxDeclines;      \/* total number of DHCP DECLINEs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfRxDiscovers	l2dstdfs.h	/^    UINT4       u4NoOfRxDiscovers;     \/* total number of DHCP DISCOVERs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfRxInforms	l2dstdfs.h	/^    UINT4       u4NoOfRxInforms;       \/* total number of DHCP INFORMs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfRxReleases	l2dstdfs.h	/^    UINT4       u4NoOfRxReleases;      \/* total number of DHCP RELEASEs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfRxRequests	l2dstdfs.h	/^    UINT4       u4NoOfRxRequests;      \/* total number of DHCP REQUESTs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfServerDiscards	l2dstdfs.h	/^    UINT4       u4NoOfServerDiscards;  \/* Total number of DHCP packets from $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfTotalDiscards	l2dstdfs.h	/^    UINT4       u4NoOfTotalDiscards;   \/* Total number of DHCP packets from $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfTxAcks	l2dstdfs.h	/^    UINT4       u4NoOfTxAcks;          \/* Total number of DHCP ACKs sent out $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfTxNaks	l2dstdfs.h	/^    UINT4       u4NoOfTxNaks;          \/* Total number of DHCP NAKs sent out $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpIfaceEntry::u4NoOfTxOffers	l2dstdfs.h	/^    UINT4       u4NoOfTxOffers;        \/* Total number of DHCP OFFERs sent $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+_L2DhcpSnpOption	l2dstdfs.h	/^typedef struct _L2DhcpSnpOption {$/;"	s
+_L2DhcpSnpOption::pu1Val	l2dstdfs.h	/^    UINT1       *pu1Val;                  \/* Value of the option *\/ $/;"	m	struct:_L2DhcpSnpOption	access:public
+_L2DhcpSnpOption::u1Len	l2dstdfs.h	/^    UINT1       u1Len;                    \/* Option length *\/$/;"	m	struct:_L2DhcpSnpOption	access:public
+_L2DhcpSnpOption::u1Type	l2dstdfs.h	/^    UINT1       u1Type;                   \/* Option Type *\/  $/;"	m	struct:_L2DhcpSnpOption	access:public
+_L2DhcpSnpOption::u2Padding	l2dstdfs.h	/^    UINT2       u2Padding;                \/* Padding *\/$/;"	m	struct:_L2DhcpSnpOption	access:public
+_L2DhcpSnpPacket	l2dstdfs.h	/^typedef struct _L2DhcpSnpPacket {$/;"	s
+_L2DhcpSnpPacket::Chaddr	l2dstdfs.h	/^    tMacAddr  Chaddr;                      \/* Client hardware address *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::au1Options	l2dstdfs.h	/^    UINT1     au1Options[L2DS_OPTION_LEN]; \/* Optional parameters$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u1File	l2dstdfs.h	/^    UINT1     u1File[L2DS_FILE_LEN];       \/* Boot file Name *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u1MsgType	l2dstdfs.h	/^	UINT1	u1MsgType;		\/* packet message type (option 53 contents) *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u1Op	l2dstdfs.h	/^    UINT1     u1Op;                        \/* Message opcode\/type *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u1Sname	l2dstdfs.h	/^    UINT1     u1Sname[L2DS_SNAME_LEN];     \/* Optional server host name *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u2OptLen	l2dstdfs.h	/^    UINT2     u2OptLen;                    \/* Length of options *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u4Ciaddr	l2dstdfs.h	/^    UINT4     u4Ciaddr;                    \/* Client IP address *\/ $/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u4DftGwIP	l2dstdfs.h	/^    UINT4	u4DftGwIP;		\/* Default gateway (option 3 contents) *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u4Giaddr	l2dstdfs.h	/^    UINT4     u4Giaddr;                    \/* DHCP relay agent IP address *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u4LeaseTime	l2dstdfs.h	/^	UINT4	u4LeaseTime;	\/* Lease durations specified *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u4Siaddr	l2dstdfs.h	/^    UINT4     u4Siaddr;                    \/* IP address of next server to $/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u4Xid	l2dstdfs.h	/^    UINT4     u4Xid;                       \/* Transaction ID *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPacket::u4Yiaddr	l2dstdfs.h	/^    UINT4     u4Yiaddr;                    \/* 'Your' (client) Ip Address *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+_L2DhcpSnpPktInfo	l2dstdfs.h	/^typedef struct _L2DhcpSnpPktInfo {$/;"	s
+_L2DhcpSnpPktInfo::EthHdr	l2dstdfs.h	/^	tEnetV2Header		EthHdr;				\/* We only use mac in it *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::IPv4Hdr	l2dstdfs.h	/^	t_IP_HEADER			IPv4Hdr;			\/* IPv4 Header *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::IPv6Hdr	l2dstdfs.h	/^	tIp6Hdr				IPv6Hdr;			\/* IPv6 Header *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::L2DS6Pkt	l2dstdfs.h	/^	tL2DhcpSnpPktInfo6Pkt	L2DS6Pkt;		\/* DHCP6 Packet informations *\/ $/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::L2DSPkt	l2dstdfs.h	/^	tL2DhcpSnpPacket  		L2DSPkt;		\/* DHCP Packet informations *\/ $/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::PortList	l2dstdfs.h	/^	tPortList			PortList;			\/* Trusted post list *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::VlanTag	l2dstdfs.h	/^	tVlanTag			VlanTag;			\/* VlanId is OuterVlanTag, CVlanId is InnerVlanTag *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::u1InPortType	l2dstdfs.h	/^	UINT1             	u1InPortType;		\/* Trust or un-trust(downstream or upstream) *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::u2EthHdrLen	l2dstdfs.h	/^	UINT2             	u2EthHdrLen;      	\/* Ethernet header length including VLAN tags *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::u2InPort	l2dstdfs.h	/^	UINT2             	u2InPort;			\/* Port no of recvd Pkt *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::u2OutPort	l2dstdfs.h	/^	UINT2             	u2OutPort;			\/* Only use when a trust port forward a ACK or NACK pkt to DHCP client *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::u4IpHdrLen	l2dstdfs.h	/^	UINT4				u4IpHdrLen;		\/* IP Header length *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::u4IpType	l2dstdfs.h	/^	UINT4				u4IpType;			\/* IPv4 or IPv6 *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpPktInfo::u4PktLen	l2dstdfs.h	/^	UINT4				u4PktLen;			\/* Packet length *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+_L2DhcpSnpQMsg	l2dstdfs.h	/^typedef struct _L2DhcpSnpQMsg $/;"	s
+_L2DhcpSnpQMsg::VlanId	l2dstdfs.h	/^    tVlanId                 VlanId;       \/* VlanId *\/    $/;"	m	struct:_L2DhcpSnpQMsg	access:public
+_L2DhcpSnpQMsg::VlanTag	l2dstdfs.h	/^    tVlanTag                VlanTag;      \/* Incoming VLAN tags *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+_L2DhcpSnpQMsg::pInQMsg	l2dstdfs.h	/^    tCRU_BUF_CHAIN_HEADER   *pInQMsg;     \/* Packet received *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+_L2DhcpSnpQMsg::u2Padding	l2dstdfs.h	/^    UINT2                   u2Padding;    \/* Padding *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+_L2DhcpSnpQMsg::u4EventType	l2dstdfs.h	/^    UINT4                   u4EventType;  \/* Type of the event *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+_L2DhcpSnpQMsg::u4InPort	l2dstdfs.h	/^    UINT4                   u4InPort;     \/* Incoming port *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+_L2DhcpSnpQMsg::u4L2dsCxtId	l2dstdfs.h	/^    UINT4                   u4L2dsCxtId;  \/* Context Identifier*\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+__anon4::i4PortNum	cmdstrap.h	/^    INT4  i4PortNum;$/;"	m	struct:__anon4	access:public
+__anon4::i4TrapId	cmdstrap.h	/^    INT4  i4TrapId;$/;"	m	struct:__anon4	access:public
+au1Options	l2dstdfs.h	/^    UINT1     au1Options[L2DS_OPTION_LEN]; \/* Optional parameters$/;"	m	struct:_L2DhcpSnpPacket	access:public
+fsdhcs	fsdhcsdb.h	/^UINT4 fsdhcs [] ={1,3,6,1,4,1,29601,2,3};$/;"	v
+fsdhcsEntry	fsdhcsdb.h	/^tMibData fsdhcsEntry = { 21, fsdhcsMibEntry };$/;"	v
+fsdhcsMibEntry	fsdhcsdb.h	/^tMbDbEntry fsdhcsMibEntry[]= {$/;"	v
+fsdhcsOID	fsdhcsdb.h	/^tSNMP_OID_TYPE fsdhcsOID = {9, fsdhcs};$/;"	v
+fsmidh	fsmidhdb.h	/^UINT4 fsmidh [] ={1,3,6,1,4,1,29601,2,49};$/;"	v
+fsmidhEntry	fsmidhdb.h	/^tMibData fsmidhEntry = { 18, fsmidhMibEntry };$/;"	v
+fsmidhMibEntry	fsmidhdb.h	/^tMbDbEntry fsmidhMibEntry[]= {$/;"	v
+fsmidhOID	fsmidhdb.h	/^tSNMP_OID_TYPE fsmidhOID = {9, fsmidh};$/;"	v
+gL2DSFdbGlob	l2dsglob.h	/^tL2DhcpSnpFdbGlob	gL2DSFdbGlob;$/;"	v
+gL2DhcpSnpGlobalInfo	l2dsglob.h	/^tL2DhcpSnpGlobalInfo    gL2DhcpSnpGlobalInfo;$/;"	v
+gaL2DhcpSnpGlobalConfig	l2dsglob.h	/^tL2DhcpSnpGlobalConfig  gaL2DhcpSnpGlobalConfig [L2DS_MAX_CONTEXTS];$/;"	v
+gau1OptionVal	l2dsextn.h	/^PUBLIC UINT1               gau1OptionVal[L2DS_OPTION_LEN];$/;"	v
+gau1OptionVal	l2dsglob.h	/^UINT1               gau1OptionVal[L2DS_OPTION_LEN];$/;"	v
+gi4SysLogId	l2dsglob.h	/^INT4 gi4SysLogId;$/;"	v
+gpau1L2dsDataBuffer	l2dsglob.h	/^UINT1                  *gpau1L2dsDataBuffer = NULL;$/;"	v
+i4PortNum	cmdstrap.h	/^    INT4  i4PortNum;$/;"	m	struct:__anon4	access:public
+i4TrapId	cmdstrap.h	/^    INT4  i4TrapId;$/;"	m	struct:__anon4	access:public
+i4UsedNum	l2dstdfs.h	/^    INT4			i4UsedNum;$/;"	m	struct:_L2DhcpSnpFdbGlob	access:public
+nmhDepv2CmDhcpSnpBackupDBInterval	fsdhcslw.h	/^nmhDepv2CmDhcpSnpBackupDBInterval ARG_LIST((UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*));$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+nmhDepv2CmDhcpSnpBackupDBStatus	fsdhcslw.h	/^nmhDepv2CmDhcpSnpBackupDBStatus ARG_LIST((UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*));$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+nmhDepv2CmDhcpSnpFwdOption82Status	fsdhcslw.h	/^nmhDepv2CmDhcpSnpFwdOption82Status ARG_LIST((UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*));$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+nmhDepv2CmDhcpSnpInsertOption82Status	fsdhcslw.h	/^nmhDepv2CmDhcpSnpInsertOption82Status ARG_LIST((UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*));$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+nmhDepv2FsDhcpSnpInterfaceTable	fsdhcslw.h	/^nmhDepv2FsDhcpSnpInterfaceTable ARG_LIST((UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*));$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+nmhDepv2FsDhcpSnpMacVerifyStatus	fsdhcslw.h	/^nmhDepv2FsDhcpSnpMacVerifyStatus ARG_LIST((UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*));$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+nmhDepv2FsDhcpSnpSnoopingAdminStatus	fsdhcslw.h	/^nmhDepv2FsDhcpSnpSnoopingAdminStatus ARG_LIST((UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*));$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+nmhDepv2FsMIDhcpSnpGlobalConfigTable	fsmidhlw.h	/^nmhDepv2FsMIDhcpSnpGlobalConfigTable ARG_LIST((UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*));$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+nmhDepv2FsMIDhcpSnpInterfaceTable	fsmidhlw.h	/^nmhDepv2FsMIDhcpSnpInterfaceTable ARG_LIST((UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*));$/;"	p	signature:(UINT4 *, tSnmpIndexList*, tSNMP_VAR_BIND*)
+nmhGetCmDhcpSnpBackupDBInterval	fsdhcslw.h	/^nmhGetCmDhcpSnpBackupDBInterval ARG_LIST((INT4 *));$/;"	p	signature:(INT4 *)
+nmhGetCmDhcpSnpBackupDBStatus	fsdhcslw.h	/^nmhGetCmDhcpSnpBackupDBStatus ARG_LIST((INT4 *));$/;"	p	signature:(INT4 *)
+nmhGetCmDhcpSnpFwdOption82Status	fsdhcslw.h	/^nmhGetCmDhcpSnpFwdOption82Status ARG_LIST((INT4 *));$/;"	p	signature:(INT4 *)
+nmhGetCmDhcpSnpInsertOption82Status	fsdhcslw.h	/^nmhGetCmDhcpSnpInsertOption82Status ARG_LIST((INT4 *));$/;"	p	signature:(INT4 *)
+nmhGetFirstIndexFsDhcpSnpInterfaceTable	fsdhcslw.h	/^nmhGetFirstIndexFsDhcpSnpInterfaceTable ARG_LIST((INT4 *));$/;"	p	signature:(INT4 *)
+nmhGetFirstIndexFsMIDhcpSnpGlobalConfigTable	fsmidhlw.h	/^nmhGetFirstIndexFsMIDhcpSnpGlobalConfigTable ARG_LIST((INT4 *));$/;"	p	signature:(INT4 *)
+nmhGetFirstIndexFsMIDhcpSnpInterfaceTable	fsmidhlw.h	/^nmhGetFirstIndexFsMIDhcpSnpInterfaceTable ARG_LIST((INT4 * , INT4 *));$/;"	p	signature:(INT4 * , INT4 *)
+nmhGetFsDhcpSnpInterfaceStatus	fsdhcslw.h	/^nmhGetFsDhcpSnpInterfaceStatus ARG_LIST((INT4 ,INT4 *));$/;"	p	signature:(INT4 ,INT4 *)
+nmhGetFsDhcpSnpMacDiscards	fsdhcslw.h	/^nmhGetFsDhcpSnpMacDiscards ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpMacVerifyStatus	fsdhcslw.h	/^nmhGetFsDhcpSnpMacVerifyStatus ARG_LIST((INT4 *));$/;"	p	signature:(INT4 *)
+nmhGetFsDhcpSnpNoOfDiscards	fsdhcslw.h	/^nmhGetFsDhcpSnpNoOfDiscards ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpOptionDiscards	fsdhcslw.h	/^nmhGetFsDhcpSnpOptionDiscards ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpRxDeclines	fsdhcslw.h	/^nmhGetFsDhcpSnpRxDeclines ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpRxDiscovers	fsdhcslw.h	/^nmhGetFsDhcpSnpRxDiscovers ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpRxInforms	fsdhcslw.h	/^nmhGetFsDhcpSnpRxInforms ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpRxReleases	fsdhcslw.h	/^nmhGetFsDhcpSnpRxReleases ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpRxRequests	fsdhcslw.h	/^nmhGetFsDhcpSnpRxRequests ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpServerDiscards	fsdhcslw.h	/^nmhGetFsDhcpSnpServerDiscards ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpSnoopingAdminStatus	fsdhcslw.h	/^nmhGetFsDhcpSnpSnoopingAdminStatus ARG_LIST((INT4 *));$/;"	p	signature:(INT4 *)
+nmhGetFsDhcpSnpTxAcks	fsdhcslw.h	/^nmhGetFsDhcpSnpTxAcks ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpTxNaks	fsdhcslw.h	/^nmhGetFsDhcpSnpTxNaks ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpTxOffers	fsdhcslw.h	/^nmhGetFsDhcpSnpTxOffers ARG_LIST((INT4 ,UINT4 *));$/;"	p	signature:(INT4 ,UINT4 *)
+nmhGetFsDhcpSnpVlanId	fsdhcslw.h	/^nmhGetFsDhcpSnpVlanId ARG_LIST((INT4 ,INT4 *));$/;"	p	signature:(INT4 ,INT4 *)
+nmhGetFsDhcpSnpVlanSnpStatus	fsdhcslw.h	/^nmhGetFsDhcpSnpVlanSnpStatus ARG_LIST((INT4 ,INT4 *));$/;"	p	signature:(INT4 ,INT4 *)
+nmhGetFsMIDhcpSnpInterfaceStatus	fsmidhlw.h	/^nmhGetFsMIDhcpSnpInterfaceStatus ARG_LIST((INT4  , INT4 ,INT4 *));$/;"	p	signature:(INT4 , INT4 ,INT4 *)
+nmhGetFsMIDhcpSnpMacDiscards	fsmidhlw.h	/^nmhGetFsMIDhcpSnpMacDiscards ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpMacVerifyStatus	fsmidhlw.h	/^nmhGetFsMIDhcpSnpMacVerifyStatus ARG_LIST((INT4 ,INT4 *));$/;"	p	signature:(INT4 ,INT4 *)
+nmhGetFsMIDhcpSnpNoOfDiscards	fsmidhlw.h	/^nmhGetFsMIDhcpSnpNoOfDiscards ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpOptionDiscards	fsmidhlw.h	/^nmhGetFsMIDhcpSnpOptionDiscards ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpRxDeclines	fsmidhlw.h	/^nmhGetFsMIDhcpSnpRxDeclines ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpRxDiscovers	fsmidhlw.h	/^nmhGetFsMIDhcpSnpRxDiscovers ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpRxInforms	fsmidhlw.h	/^nmhGetFsMIDhcpSnpRxInforms ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpRxReleases	fsmidhlw.h	/^nmhGetFsMIDhcpSnpRxReleases ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpRxRequests	fsmidhlw.h	/^nmhGetFsMIDhcpSnpRxRequests ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpServerDiscards	fsmidhlw.h	/^nmhGetFsMIDhcpSnpServerDiscards ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpSnoopingAdminStatus	fsmidhlw.h	/^nmhGetFsMIDhcpSnpSnoopingAdminStatus ARG_LIST((INT4 ,INT4 *));$/;"	p	signature:(INT4 ,INT4 *)
+nmhGetFsMIDhcpSnpTxAcks	fsmidhlw.h	/^nmhGetFsMIDhcpSnpTxAcks ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpTxNaks	fsmidhlw.h	/^nmhGetFsMIDhcpSnpTxNaks ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpTxOffers	fsmidhlw.h	/^nmhGetFsMIDhcpSnpTxOffers ARG_LIST((INT4  , INT4 ,UINT4 *));$/;"	p	signature:(INT4 , INT4 ,UINT4 *)
+nmhGetFsMIDhcpSnpVlanSnpStatus	fsmidhlw.h	/^nmhGetFsMIDhcpSnpVlanSnpStatus ARG_LIST((INT4  , INT4 ,INT4 *));$/;"	p	signature:(INT4 , INT4 ,INT4 *)
+nmhGetNextIndexFsDhcpSnpInterfaceTable	fsdhcslw.h	/^nmhGetNextIndexFsDhcpSnpInterfaceTable ARG_LIST((INT4 , INT4 *));$/;"	p	signature:(INT4 , INT4 *)
+nmhGetNextIndexFsMIDhcpSnpGlobalConfigTable	fsmidhlw.h	/^nmhGetNextIndexFsMIDhcpSnpGlobalConfigTable ARG_LIST((INT4 , INT4 *));$/;"	p	signature:(INT4 , INT4 *)
+nmhGetNextIndexFsMIDhcpSnpInterfaceTable	fsmidhlw.h	/^nmhGetNextIndexFsMIDhcpSnpInterfaceTable ARG_LIST((INT4 , INT4 * , INT4 , INT4 *));$/;"	p	signature:(INT4 , INT4 * , INT4 , INT4 *)
+nmhSetCmDhcpSnpBackupDBInterval	fsdhcslw.h	/^nmhSetCmDhcpSnpBackupDBInterval ARG_LIST((INT4 ));$/;"	p	signature:(INT4 )
+nmhSetCmDhcpSnpBackupDBStatus	fsdhcslw.h	/^nmhSetCmDhcpSnpBackupDBStatus ARG_LIST((INT4 ));$/;"	p	signature:(INT4 )
+nmhSetCmDhcpSnpFwdOption82Status	fsdhcslw.h	/^nmhSetCmDhcpSnpFwdOption82Status ARG_LIST((INT4 ));$/;"	p	signature:(INT4 )
+nmhSetCmDhcpSnpInsertOption82Status	fsdhcslw.h	/^nmhSetCmDhcpSnpInsertOption82Status ARG_LIST((INT4 ));$/;"	p	signature:(INT4 )
+nmhSetFsDhcpSnpInterfaceStatus	fsdhcslw.h	/^nmhSetFsDhcpSnpInterfaceStatus ARG_LIST((INT4  ,INT4 ));$/;"	p	signature:(INT4 ,INT4 )
+nmhSetFsDhcpSnpMacVerifyStatus	fsdhcslw.h	/^nmhSetFsDhcpSnpMacVerifyStatus ARG_LIST((INT4 ));$/;"	p	signature:(INT4 )
+nmhSetFsDhcpSnpSnoopingAdminStatus	fsdhcslw.h	/^nmhSetFsDhcpSnpSnoopingAdminStatus ARG_LIST((INT4 ));$/;"	p	signature:(INT4 )
+nmhSetFsDhcpSnpVlanSnpStatus	fsdhcslw.h	/^nmhSetFsDhcpSnpVlanSnpStatus ARG_LIST((INT4  ,INT4 ));$/;"	p	signature:(INT4 ,INT4 )
+nmhSetFsMIDhcpSnpInterfaceStatus	fsmidhlw.h	/^nmhSetFsMIDhcpSnpInterfaceStatus ARG_LIST((INT4  , INT4  ,INT4 ));$/;"	p	signature:(INT4 , INT4 ,INT4 )
+nmhSetFsMIDhcpSnpMacVerifyStatus	fsmidhlw.h	/^nmhSetFsMIDhcpSnpMacVerifyStatus ARG_LIST((INT4  ,INT4 ));$/;"	p	signature:(INT4 ,INT4 )
+nmhSetFsMIDhcpSnpSnoopingAdminStatus	fsmidhlw.h	/^nmhSetFsMIDhcpSnpSnoopingAdminStatus ARG_LIST((INT4  ,INT4 ));$/;"	p	signature:(INT4 ,INT4 )
+nmhSetFsMIDhcpSnpVlanSnpStatus	fsmidhlw.h	/^nmhSetFsMIDhcpSnpVlanSnpStatus ARG_LIST((INT4  , INT4  ,INT4 ));$/;"	p	signature:(INT4 , INT4 ,INT4 )
+nmhTestv2CmDhcpSnpBackupDBInterval	fsdhcslw.h	/^nmhTestv2CmDhcpSnpBackupDBInterval ARG_LIST((UINT4 *  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 )
+nmhTestv2CmDhcpSnpBackupDBStatus	fsdhcslw.h	/^nmhTestv2CmDhcpSnpBackupDBStatus ARG_LIST((UINT4 *  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 )
+nmhTestv2CmDhcpSnpFwdOption82Status	fsdhcslw.h	/^nmhTestv2CmDhcpSnpFwdOption82Status ARG_LIST((UINT4 *  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 )
+nmhTestv2CmDhcpSnpInsertOption82Status	fsdhcslw.h	/^nmhTestv2CmDhcpSnpInsertOption82Status ARG_LIST((UINT4 *  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 )
+nmhTestv2FsDhcpSnpInterfaceStatus	fsdhcslw.h	/^nmhTestv2FsDhcpSnpInterfaceStatus ARG_LIST((UINT4 *  ,INT4  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 ,INT4 )
+nmhTestv2FsDhcpSnpMacVerifyStatus	fsdhcslw.h	/^nmhTestv2FsDhcpSnpMacVerifyStatus ARG_LIST((UINT4 *  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 )
+nmhTestv2FsDhcpSnpSnoopingAdminStatus	fsdhcslw.h	/^nmhTestv2FsDhcpSnpSnoopingAdminStatus ARG_LIST((UINT4 *  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 )
+nmhTestv2FsDhcpSnpVlanSnpStatus	fsdhcslw.h	/^nmhTestv2FsDhcpSnpVlanSnpStatus ARG_LIST((UINT4 *  ,INT4  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 ,INT4 )
+nmhTestv2FsMIDhcpSnpInterfaceStatus	fsmidhlw.h	/^nmhTestv2FsMIDhcpSnpInterfaceStatus ARG_LIST((UINT4 *  ,INT4  , INT4  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 , INT4 ,INT4 )
+nmhTestv2FsMIDhcpSnpMacVerifyStatus	fsmidhlw.h	/^nmhTestv2FsMIDhcpSnpMacVerifyStatus ARG_LIST((UINT4 *  ,INT4  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 ,INT4 )
+nmhTestv2FsMIDhcpSnpSnoopingAdminStatus	fsmidhlw.h	/^nmhTestv2FsMIDhcpSnpSnoopingAdminStatus ARG_LIST((UINT4 *  ,INT4  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 ,INT4 )
+nmhTestv2FsMIDhcpSnpVlanSnpStatus	fsmidhlw.h	/^nmhTestv2FsMIDhcpSnpVlanSnpStatus ARG_LIST((UINT4 *  ,INT4  , INT4  ,INT4 ));$/;"	p	signature:(UINT4 * ,INT4 , INT4 ,INT4 )
+nmhValidateIndexInstanceFsDhcpSnpInterfaceTable	fsdhcslw.h	/^nmhValidateIndexInstanceFsDhcpSnpInterfaceTable ARG_LIST((INT4 ));$/;"	p	signature:(INT4 )
+nmhValidateIndexInstanceFsMIDhcpSnpGlobalConfigTable	fsmidhlw.h	/^nmhValidateIndexInstanceFsMIDhcpSnpGlobalConfigTable ARG_LIST((INT4 ));$/;"	p	signature:(INT4 )
+nmhValidateIndexInstanceFsMIDhcpSnpInterfaceTable	fsmidhlw.h	/^nmhValidateIndexInstanceFsMIDhcpSnpInterfaceTable ARG_LIST((INT4  , INT4 ));$/;"	p	signature:(INT4 , INT4 )
+pInQMsg	l2dstdfs.h	/^    tCRU_BUF_CHAIN_HEADER   *pInQMsg;     \/* Packet received *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+pu1Val	l2dstdfs.h	/^    UINT1       *pu1Val;                  \/* Value of the option *\/ $/;"	m	struct:_L2DhcpSnpOption	access:public
+tDhcpSNPUtlTrap	cmdstrap.h	/^} tDhcpSNPUtlTrap;$/;"	t	typeref:struct:__anon4
+tL2DhcpSnpFdb	l2dstdfs.h	/^}tL2DhcpSnpFdb;$/;"	t	typeref:struct:_L2DhcpSnpFdb
+tL2DhcpSnpFdbGlob	l2dstdfs.h	/^}tL2DhcpSnpFdbGlob;$/;"	t	typeref:struct:_L2DhcpSnpFdbGlob
+tL2DhcpSnpGlobalConfig	l2dstdfs.h	/^} tL2DhcpSnpGlobalConfig;$/;"	t	typeref:struct:_L2DhcpSnpGlobalConfig
+tL2DhcpSnpGlobalInfo	l2dstdfs.h	/^} tL2DhcpSnpGlobalInfo;$/;"	t	typeref:struct:_L2DhcpSnpGlobalInfo
+tL2DhcpSnpIfaceEntry	l2dstdfs.h	/^} tL2DhcpSnpIfaceEntry;$/;"	t	typeref:struct:_L2DhcpSnpIfaceEntry
+tL2DhcpSnpOption	l2dstdfs.h	/^} tL2DhcpSnpOption;$/;"	t	typeref:struct:_L2DhcpSnpOption
+tL2DhcpSnpPacket	l2dstdfs.h	/^}tL2DhcpSnpPacket;$/;"	t	typeref:struct:_L2DhcpSnpPacket
+tL2DhcpSnpPktInfo	l2dstdfs.h	/^}tL2DhcpSnpPktInfo;$/;"	t	typeref:struct:_L2DhcpSnpPktInfo
+tL2DhcpSnpPktInfo6Pkt	l2dstdfs.h	/^}tL2DhcpSnpPktInfo6Pkt;$/;"	t	typeref:struct:_L2DS6Pkt
+tL2DhcpSnpQMsg	l2dstdfs.h	/^} tL2DhcpSnpQMsg;$/;"	t	typeref:struct:_L2DhcpSnpQMsg
+u1AddOp82St	l2dstdfs.h	/^	UINT1		u1AddOp82St;	\/* Global DHCP Snooping insert Option82 Status *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+u1BkupDBSt	l2dstdfs.h	/^	UINT1		u1BkupDBSt;	\/* Whether backup Datebase backup to file *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+u1File	l2dstdfs.h	/^    UINT1     u1File[L2DS_FILE_LEN];       \/* Boot file Name *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+u1FwdOp82St	l2dstdfs.h	/^	UINT1		u1FwdOp82St;	\/* Whether forward packet with op82 option *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+u1InPortType	l2dstdfs.h	/^	UINT1             	u1InPortType;		\/* Trust or un-trust(downstream or upstream) *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+u1IsContextExist	l2dstdfs.h	/^    UINT1       u1IsContextExist;         \/* To indicate whether the current $/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+u1Len	l2dstdfs.h	/^    UINT1       u1Len;                    \/* Option length *\/$/;"	m	struct:_L2DhcpSnpOption	access:public
+u1MacVerifyStatus	l2dstdfs.h	/^    UINT1       u1MacVerifyStatus;        \/* Global MAC Verification status *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+u1MsgType	l2dstdfs.h	/^	UINT1		u1MsgType;				\/* DHCP6 message type *\/$/;"	m	struct:_L2DS6Pkt	access:public
+u1MsgType	l2dstdfs.h	/^	UINT1	u1MsgType;		\/* packet message type (option 53 contents) *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+u1Op	l2dstdfs.h	/^    UINT1     u1Op;                        \/* Message opcode\/type *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+u1Pad	l2dstdfs.h	/^	UINT1	  	u1Pad[1];				\/* Padding *\/$/;"	m	struct:_L2DS6Pkt	access:public
+u1Reserved	l2dstdfs.h	/^	UINT1		u1Reserved[2];	\/* Padding *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+u1RowStatus	l2dstdfs.h	/^    UINT1       u1RowStatus;           \/* Row status *\/$/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u1Sname	l2dstdfs.h	/^    UINT1     u1Sname[L2DS_SNAME_LEN];     \/* Optional server host name *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+u1SnpAdminStatus	l2dstdfs.h	/^    UINT1       u1SnpAdminStatus;         \/* Global DHCP snooping status *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+u1Type	l2dstdfs.h	/^    UINT1       u1Type;                   \/* Option Type *\/  $/;"	m	struct:_L2DhcpSnpOption	access:public
+u1VlanSnpStatus	l2dstdfs.h	/^    UINT1       u1VlanSnpStatus;       \/* L2 DHCP Snooping interface status *\/$/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u2EthHdrLen	l2dstdfs.h	/^	UINT2             	u2EthHdrLen;      	\/* Ethernet header length including VLAN tags *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+u2InPort	l2dstdfs.h	/^	UINT2             	u2InPort;			\/* Port no of recvd Pkt *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+u2OptLen	l2dstdfs.h	/^    UINT2     u2OptLen;                    \/* Length of options *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+u2OutPort	l2dstdfs.h	/^	UINT2             	u2OutPort;			\/* Only use when a trust port forward a ACK or NACK pkt to DHCP client *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+u2Padding	l2dstdfs.h	/^    UINT2                   u2Padding;    \/* Padding *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+u2Padding	l2dstdfs.h	/^    UINT2       u2Padding;                \/* Padding *\/$/;"	m	struct:_L2DhcpSnpOption	access:public
+u4BkupItvl	l2dstdfs.h	/^	UINT4		u4BkupItvl;	\/* Datebase backup to file interval *\/$/;"	m	struct:_L2DhcpSnpGlobalConfig	access:public
+u4Ciaddr	l2dstdfs.h	/^    UINT4     u4Ciaddr;                    \/* Client IP address *\/ $/;"	m	struct:_L2DhcpSnpPacket	access:public
+u4DebugFlag	l2dstdfs.h	/^    UINT4       u4DebugFlag;              \/* Flag used for Trace *\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+u4DftGwIP	l2dstdfs.h	/^    UINT4	u4DftGwIP;		\/* Default gateway (option 3 contents) *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+u4EventType	l2dstdfs.h	/^    UINT4                   u4EventType;  \/* Type of the event *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+u4Giaddr	l2dstdfs.h	/^    UINT4     u4Giaddr;                    \/* DHCP relay agent IP address *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+u4InPort	l2dstdfs.h	/^    UINT4                   u4InPort;     \/* Incoming port *\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+u4IpHdrLen	l2dstdfs.h	/^	UINT4				u4IpHdrLen;		\/* IP Header length *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+u4IpType	l2dstdfs.h	/^	UINT4				u4IpType;			\/* IPv4 or IPv6 *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+u4L2dsCurCxtId	l2dstdfs.h	/^    UINT4       u4L2dsCurCxtId;            \/* Current Context Identifier*\/$/;"	m	struct:_L2DhcpSnpGlobalInfo	access:public
+u4L2dsCxtId	l2dstdfs.h	/^    UINT4                   u4L2dsCxtId;  \/* Context Identifier*\/$/;"	m	struct:_L2DhcpSnpQMsg	access:public
+u4L2dsCxtId	l2dstdfs.h	/^    UINT4       u4L2dsCxtId;           \/* Context Identifier*\/$/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4LeaseTime	l2dstdfs.h	/^	UINT4		u4LeaseTime;			\/* Lease durations specified *\/$/;"	m	struct:_L2DS6Pkt	access:public
+u4LeaseTime	l2dstdfs.h	/^	UINT4	u4LeaseTime;	\/* Lease durations specified *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+u4NoOfMacDiscards	l2dstdfs.h	/^    UINT4       u4NoOfMacDiscards;     \/* Total number of DHCP packets from $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfOptionDiscards	l2dstdfs.h	/^    UINT4       u4NoOfOptionDiscards;  \/* Total number of DHCP packets from $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfRxDeclines	l2dstdfs.h	/^    UINT4       u4NoOfRxDeclines;      \/* total number of DHCP DECLINEs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfRxDiscovers	l2dstdfs.h	/^    UINT4       u4NoOfRxDiscovers;     \/* total number of DHCP DISCOVERs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfRxInforms	l2dstdfs.h	/^    UINT4       u4NoOfRxInforms;       \/* total number of DHCP INFORMs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfRxReleases	l2dstdfs.h	/^    UINT4       u4NoOfRxReleases;      \/* total number of DHCP RELEASEs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfRxRequests	l2dstdfs.h	/^    UINT4       u4NoOfRxRequests;      \/* total number of DHCP REQUESTs $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfServerDiscards	l2dstdfs.h	/^    UINT4       u4NoOfServerDiscards;  \/* Total number of DHCP packets from $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfTotalDiscards	l2dstdfs.h	/^    UINT4       u4NoOfTotalDiscards;   \/* Total number of DHCP packets from $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfTxAcks	l2dstdfs.h	/^    UINT4       u4NoOfTxAcks;          \/* Total number of DHCP ACKs sent out $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfTxNaks	l2dstdfs.h	/^    UINT4       u4NoOfTxNaks;          \/* Total number of DHCP NAKs sent out $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4NoOfTxOffers	l2dstdfs.h	/^    UINT4       u4NoOfTxOffers;        \/* Total number of DHCP OFFERs sent $/;"	m	struct:_L2DhcpSnpIfaceEntry	access:public
+u4PktLen	l2dstdfs.h	/^	UINT4				u4PktLen;			\/* Packet length *\/$/;"	m	struct:_L2DhcpSnpPktInfo	access:public
+u4Port	l2dstdfs.h	/^	UINT4		u4Port;$/;"	m	struct:_L2DhcpSnpFdb	access:public
+u4Siaddr	l2dstdfs.h	/^    UINT4     u4Siaddr;                    \/* IP address of next server to $/;"	m	struct:_L2DhcpSnpPacket	access:public
+u4TransID	l2dstdfs.h	/^	UINT4		u4TransID;				\/* Transaction-ID *\/$/;"	m	struct:_L2DS6Pkt	access:public
+u4Xid	l2dstdfs.h	/^    UINT4     u4Xid;                       \/* Transaction ID *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public
+u4Yiaddr	l2dstdfs.h	/^    UINT4     u4Yiaddr;                    \/* 'Your' (client) Ip Address *\/$/;"	m	struct:_L2DhcpSnpPacket	access:public

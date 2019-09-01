@@ -1,0 +1,17 @@
+./l2dsglob.h
+./l2dsdefn.h
+./l2dscmds.def
+./fsmidhwr.h
+./cmdsrule.h
+./l2dsextn.h
+./l2dssz.h
+./l2dsprot.h
+./fsmidhlw.h
+./fsdhcswr.h
+./fsdhcslw.h
+./l2dstdfs.h
+./fsdhcsdb.h
+./l2dsinc.h
+./l2dsmacs.h
+./fsmidhdb.h
+./cmdstrap.h
